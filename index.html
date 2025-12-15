@@ -49,6 +49,10 @@
     border: 1px solid #30363d;
   }
 
+  .card:hover {
+    background: #1f2933;
+  }
+
   .card img {
     width: 96px;
     height: 96px;
@@ -59,40 +63,6 @@
   .name {
     font-size: .85rem;
     font-weight: 600;
-  }
-
-  /* PLAYER */
-  .player {
-    position: fixed;
-    inset: 0;
-    background: #000;
-    display: none;
-    flex-direction: column;
-    z-index: 10;
-  }
-
-  .player.active { display: flex; }
-
-  .player-header {
-    background: #161b22;
-    padding: .5rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .player-header button {
-    background: #238636;
-    border: none;
-    color: #fff;
-    padding: .4rem .7rem;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-
-  iframe {
-    flex: 1;
-    border: none;
   }
 
   .pagination {
@@ -121,28 +91,22 @@
 
 <header>
   <input id="search" placeholder="Search games…" />
+
   <select id="sort">
+    <option value="popularity" selected>Sort: Popularity</option>
     <option value="name">Sort: Name</option>
-    <option value="popularity">Sort: Popularity</option>
   </select>
+
   <select id="pageSize">
     <option value="50">50 / page</option>
     <option value="100" selected>100 / page</option>
   </select>
 </header>
 
-<main id="launcher">
+<main>
   <div id="grid" class="grid"></div>
   <div id="pagination" class="pagination"></div>
 </main>
-
-<div id="player" class="player">
-  <div class="player-header">
-    <span id="playerTitle"></span>
-    <button onclick="closeGame()">Back</button>
-  </div>
-  <iframe id="gameFrame"></iframe>
-</div>
 
 <script>
 let games = [];
@@ -155,7 +119,7 @@ fetch("games.json")
   .then(r => r.json())
   .then(data => {
     games = data;
-    applyFilters();
+    applyFilter();
   });
 
 document.getElementById("pageSize").onchange = e => {
@@ -166,29 +130,29 @@ document.getElementById("pageSize").onchange = e => {
 
 document.getElementById("sort").onchange = () => {
   page = 0;
-  applyFilters();
+  applyFilter();
 };
 
 document.getElementById("search").oninput = e => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => {
     page = 0;
-    applyFilters();
+    applyFilter();
   }, 150);
 };
 
-function applyFilters() {
+function applyFilter() {
   const q = document.getElementById("search").value.toLowerCase();
-  const sortBy = document.getElementById("sort").value;
+  const sort = document.getElementById("sort").value;
 
   filtered = games.filter(g =>
     g.name.toLowerCase().includes(q)
   );
 
-  if (sortBy === "name") {
+  if (sort === "name") {
     filtered.sort((a, b) => a.name.localeCompare(b.name));
   } else {
-    filtered.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+    filtered.sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0));
   }
 
   render();
@@ -205,6 +169,7 @@ function renderGrid() {
 
   const start = page * PAGE_SIZE;
   const items = filtered.slice(start, start + PAGE_SIZE);
+
   const frag = document.createDocumentFragment();
 
   for (const g of items) {
@@ -213,13 +178,13 @@ function renderGrid() {
 
     const img = document.createElement("img");
     img.loading = "lazy";
-    img.src = `icons/${g.image || g.path.replace('.html', '.png')}`;
+    img.src = `icons/${g.image || g.path.replace(".html", ".png")}`;
 
     const name = document.createElement("div");
     name.className = "name";
     name.textContent = g.name;
 
-    card.onclick = () => openGame(g);
+    card.onclick = () => openGame(g.path);
 
     card.append(img, name);
     frag.appendChild(card);
@@ -242,26 +207,23 @@ function renderPagination() {
       page = i;
       renderGrid();
       renderPagination();
-      window.scrollTo({ top: 0 });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     };
     p.appendChild(b);
   }
 }
 
-function openGame(game) {
-  document.getElementById("launcher").style.display = "none";
-  document.getElementById("player").classList.add("active");
-  document.getElementById("playerTitle").textContent = game.name;
+function openGame(path) {
+  const win = window.open("about:blank", "_blank");
+  win.document.body.style.margin = "0";
 
-  const frame = document.getElementById("gameFrame");
-  frame.src = `games/${game.path}`;
-}
+  const iframe = win.document.createElement("iframe");
+  iframe.src = `portal.html?game=${encodeURIComponent(path)}`;
+  iframe.style.width = "100%";
+  iframe.style.height = "100vh";
+  iframe.style.border = "none";
 
-function closeGame() {
-  const frame = document.getElementById("gameFrame");
-  frame.src = "";
-  document.getElementById("player").classList.remove("active");
-  document.getElementById("launcher").style.display = "block";
+  win.document.body.appendChild(iframe);
 }
 </script>
 
