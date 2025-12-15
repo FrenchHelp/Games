@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Game Browser</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+  }
+
+  header {
+    padding: 1rem;
+    background: #161b22;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  input, select {
+    background: #0d1117;
+    color: #e6edf3;
+    border: 1px solid #30363d;
+    padding: .5rem;
+    border-radius: 6px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+
+  .card {
+    background: #161b22;
+    border-radius: 10px;
+    padding: .75rem;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #30363d;
+  }
+
+  .card img {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    margin-bottom: .5rem;
+  }
+
+  .name {
+    font-size: .85rem;
+    font-weight: 600;
+  }
+
+  .pagination {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: .4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pagination button {
+    background: #161b22;
+    color: #e6edf3;
+    border: 1px solid #30363d;
+    padding: .4rem .6rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .pagination button.active {
+    background: #238636;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <input id="search" placeholder="Search games…" />
+  <select id="pageSize">
+    <option value="50">50 / page</option>
+    <option value="100" selected>100 / page</option>
+  </select>
+</header>
+
+<main>
+  <div id="grid" class="grid"></div>
+  <div id="pagination" class="pagination"></div>
+</main>
+
+<script>
+let games = [];
+let filtered = [];
+let page = 0;
+let PAGE_SIZE = 100;
+let searchTimer;
+
+fetch("games.json")
+  .then(r => r.json())
+  .then(data => {
+    games = data;
+    filtered = games;
+    render();
+  });
+
+document.getElementById("pageSize").onchange = e => {
+  PAGE_SIZE = +e.target.value;
+  page = 0;
+  render();
+};
+
+document.getElementById("search").oninput = e => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    const q = e.target.value.toLowerCase();
+    filtered = games.filter(g =>
+      g.name.toLowerCase().includes(q)
+    );
+    page = 0;
+    render();
+  }, 150);
+};
+
+function render() {
+  renderGrid();
+  renderPagination();
+}
+
+function renderGrid() {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  const start = page * PAGE_SIZE;
+  const items = filtered.slice(start, start + PAGE_SIZE);
+
+  const frag = document.createDocumentFragment();
+
+  for (const g of items) {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.src = `icons/${g.image || g.path.replace('.html', '.png')}`;
+
+    const name = document.createElement("div");
+    name.className = "name";
+    name.textContent = g.name;
+
+    card.onclick = () => {
+      window.open(`games/${g.path}`, "_blank");
+    };
+
+    card.append(img, name);
+    frag.appendChild(card);
+  }
+
+  grid.appendChild(frag);
+}
+
+function renderPagination() {
+  const p = document.getElementById("pagination");
+  p.innerHTML = "";
+
+  const pages = Math.ceil(filtered.length / PAGE_SIZE);
+
+  for (let i = 0; i < pages; i++) {
+    const b = document.createElement("button");
+    b.textContent = i + 1;
+    if (i === page) b.classList.add("active");
+    b.onclick = () => {
+      page = i;
+      renderGrid();
+      renderPagination();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    p.appendChild(b);
+  }
+}
+</script>
+
+</body>
+</html>
