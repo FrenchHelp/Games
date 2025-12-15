@@ -1,288 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>PlayHub Launcher</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<title>Game Browser</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+  }
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/7e6a1aef81.js" crossorigin="anonymous"></script>
+  header {
+    padding: 1rem;
+    background: #161b22;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-  <style>
-    :root {
-      --bg: #0b0e17;
-      --bg-alt: #121527;
-      --card: #161a32;
-      --primary: #6c6cff;
-      --accent: #00f0ff;
-      --text: #e6e8ff;
-      --muted: #8a8fbf;
-      --glow: rgba(108,108,255,0.5);
-    }
+  input, select {
+    background: #0d1117;
+    color: #e6edf3;
+    border: 1px solid #30363d;
+    padding: .5rem;
+    border-radius: 6px;
+  }
 
-    * { box-sizing: border-box; }
+  main {
+    padding: 1rem;
+  }
 
-    body {
-      margin: 0;
-      font-family: Inter, sans-serif;
-      background: radial-gradient(circle at top, #121527, var(--bg));
-      color: var(--text);
-    }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
 
-    /* GRID BACKGROUND */
-    body::before {
-      content: "";
-      position: fixed;
-      inset: 0;
-      background:
-        repeating-linear-gradient(90deg, rgba(255,255,255,.04) 0 1px, transparent 1px 40px),
-        repeating-linear-gradient(0deg, rgba(255,255,255,.04) 0 1px, transparent 1px 40px);
-      pointer-events: none;
-      z-index: 0;
-    }
+  .card {
+    background: #161b22;
+    border-radius: 10px;
+    padding: .75rem;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #30363d;
+  }
 
-    header {
-      position: relative;
-      z-index: 1;
-      padding: 1.4rem 2rem;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      background: linear-gradient(to right, #0b0e17, #121527);
-      border-bottom: 1px solid rgba(255,255,255,.06);
-    }
+  .card img {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    margin-bottom: .5rem;
+  }
 
-    header h1 {
-      font-family: Orbitron, sans-serif;
-      font-size: 2rem;
-      margin: 0;
-      color: var(--primary);
-      text-shadow: 0 0 10px var(--glow);
-    }
+  .name {
+    font-size: .85rem;
+    font-weight: 600;
+  }
 
-    .controls {
-      display: flex;
-      gap: .6rem;
-      align-items: center;
-      flex-wrap: wrap;
-    }
+  /* PLAYER */
+  .player {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    display: none;
+    flex-direction: column;
+    z-index: 10;
+  }
 
-    .controls input,
-    .controls select {
-      background: var(--bg-alt);
-      border: 1px solid rgba(255,255,255,.08);
-      color: var(--text);
-      padding: .55rem .75rem;
-      border-radius: 6px;
-      font-size: .9rem;
-      outline: none;
-    }
+  .player.active { display: flex; }
 
-    main {
-      position: relative;
-      z-index: 1;
-      padding: 2rem;
-    }
+  .player-header {
+    background: #161b22;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 1.6rem;
-      perspective: 1200px;
-    }
+  .player-header button {
+    background: #238636;
+    border: none;
+    color: #fff;
+    padding: .4rem .7rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
 
-    .game-card {
-      background: linear-gradient(145deg, #1a1f45, var(--card));
-      border-radius: 14px;
-      padding: 1rem .6rem;
-      text-align: center;
-      cursor: pointer;
-      transform-style: preserve-3d;
-      transition: transform .25s ease, box-shadow .25s ease;
-      border: 1px solid rgba(255,255,255,.06);
-      contain: content;
-      will-change: transform;
-    }
+  iframe {
+    flex: 1;
+    border: none;
+  }
 
-    .game-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 25px var(--glow);
-    }
+  .pagination {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: .4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .game-card img {
-      width: 96px;
-      height: 96px;
-      object-fit: contain;
-      border-radius: 10px;
-      margin-bottom: .6rem;
-    }
+  .pagination button {
+    background: #161b22;
+    color: #e6edf3;
+    border: 1px solid #30363d;
+    padding: .4rem .6rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
 
-    .game-name {
-      font-weight: 600;
-      font-size: .95rem;
-    }
-
-    /* PAGINATION */
-    .pagination {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: center;
-      gap: .4rem;
-      flex-wrap: wrap;
-    }
-
-    .pagination button {
-      background: var(--bg-alt);
-      color: var(--text);
-      border: 1px solid rgba(255,255,255,.08);
-      padding: .4rem .7rem;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .pagination button.active {
-      background: var(--primary);
-      box-shadow: 0 0 10px var(--glow);
-    }
-
-    @media (hover: none) {
-      .game-card:hover { transform: none; box-shadow: none; }
-    }
-  </style>
+  .pagination button.active {
+    background: #238636;
+  }
+</style>
 </head>
 <body>
 
 <header>
-  <h1><i class="fa-solid fa-gamepad"></i> PlayHub Launcher</h1>
-
-  <div class="controls">
-    <input id="search" type="text" placeholder="Search games…" />
-    <select id="sort">
-      <option value="name">Name</option>
-      <option value="popularity">Popularity</option>
-    </select>
-  </div>
+  <input id="search" placeholder="Search games…" />
+  <select id="sort">
+    <option value="name">Sort: Name</option>
+    <option value="popularity">Sort: Popularity</option>
+  </select>
+  <select id="pageSize">
+    <option value="50">50 / page</option>
+    <option value="100" selected>100 / page</option>
+  </select>
 </header>
 
-<main>
-  <div id="gameGrid" class="grid"></div>
+<main id="launcher">
+  <div id="grid" class="grid"></div>
   <div id="pagination" class="pagination"></div>
 </main>
 
+<div id="player" class="player">
+  <div class="player-header">
+    <span id="playerTitle"></span>
+    <button onclick="closeGame()">Back</button>
+  </div>
+  <iframe id="gameFrame"></iframe>
+</div>
+
 <script>
-  const PAGE_SIZE = 100;
-  let games = [];
-  let filtered = [];
-  let currentPage = 0;
-  let searchTimer;
+let games = [];
+let filtered = [];
+let page = 0;
+let PAGE_SIZE = 100;
+let searchTimer;
 
-  fetch("games.json")
-    .then(r => r.json())
-    .then(data => {
-      games = data;
-      applyFilter();
-    });
-
-  const search = document.getElementById("search");
-  const sort = document.getElementById("sort");
-
-  search.addEventListener("input", () => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => {
-      currentPage = 0;
-      applyFilter();
-    }, 150);
+fetch("games.json")
+  .then(r => r.json())
+  .then(data => {
+    games = data;
+    applyFilters();
   });
 
-  sort.addEventListener("change", () => {
-    currentPage = 0;
-    applyFilter();
-  });
+document.getElementById("pageSize").onchange = e => {
+  PAGE_SIZE = +e.target.value;
+  page = 0;
+  render();
+};
 
-  function applyFilter() {
-    filtered = games.filter(g =>
-      g.name.toLowerCase().includes(search.value.toLowerCase())
-    );
+document.getElementById("sort").onchange = () => {
+  page = 0;
+  applyFilters();
+};
 
-    if (sort.value === "name") {
-      filtered.sort((a,b) => a.name.localeCompare(b.name));
-    } else {
-      filtered.sort((a,b) => b.popularity - a.popularity);
-    }
+document.getElementById("search").oninput = e => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    page = 0;
+    applyFilters();
+  }, 150);
+};
 
-    renderPage();
-    renderPagination();
+function applyFilters() {
+  const q = document.getElementById("search").value.toLowerCase();
+  const sortBy = document.getElementById("sort").value;
+
+  filtered = games.filter(g =>
+    g.name.toLowerCase().includes(q)
+  );
+
+  if (sortBy === "name") {
+    filtered.sort((a, b) => a.name.localeCompare(b.name));
+  } else {
+    filtered.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
   }
 
-  function renderPage() {
-    const grid = document.getElementById("gameGrid");
-    grid.innerHTML = "";
+  render();
+}
 
-    const start = currentPage * PAGE_SIZE;
-    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+function render() {
+  renderGrid();
+  renderPagination();
+}
 
-    const fragment = document.createDocumentFragment();
+function renderGrid() {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
 
-    pageItems.forEach(game => {
-      const card = document.createElement("div");
-      card.className = "game-card";
+  const start = page * PAGE_SIZE;
+  const items = filtered.slice(start, start + PAGE_SIZE);
+  const frag = document.createDocumentFragment();
 
-      const img = document.createElement("img");
-      img.loading = "lazy";
-      img.src = game.image || "https://via.placeholder.com/96?text=No+Image";
+  for (const g of items) {
+    const card = document.createElement("div");
+    card.className = "card";
 
-      const name = document.createElement("div");
-      name.className = "game-name";
-      name.textContent = game.name;
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.src = `icons/${g.image || g.path.replace('.html', '.png')}`;
 
-      card.append(img, name);
-      card.onclick = () => openPortal(game.path);
+    const name = document.createElement("div");
+    name.className = "name";
+    name.textContent = g.name;
 
-      fragment.appendChild(card);
-    });
+    card.onclick = () => openGame(g);
 
-    grid.appendChild(fragment);
+    card.append(img, name);
+    frag.appendChild(card);
   }
 
-  function renderPagination() {
-    const container = document.getElementById("pagination");
-    container.innerHTML = "";
+  grid.appendChild(frag);
+}
 
-    const pages = Math.ceil(filtered.length / PAGE_SIZE);
+function renderPagination() {
+  const p = document.getElementById("pagination");
+  p.innerHTML = "";
 
-    for (let i = 0; i < pages; i++) {
-      const btn = document.createElement("button");
-      btn.textContent = i + 1;
-      if (i === currentPage) btn.classList.add("active");
+  const pages = Math.ceil(filtered.length / PAGE_SIZE);
 
-      btn.onclick = () => {
-        currentPage = i;
-        renderPage();
-        renderPagination();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      };
-
-      container.appendChild(btn);
-    }
+  for (let i = 0; i < pages; i++) {
+    const b = document.createElement("button");
+    b.textContent = i + 1;
+    if (i === page) b.classList.add("active");
+    b.onclick = () => {
+      page = i;
+      renderGrid();
+      renderPagination();
+      window.scrollTo({ top: 0 });
+    };
+    p.appendChild(b);
   }
+}
 
-  function openPortal(path) {
-    const file = path.split("/").pop();
-    const win = window.open("about:blank", "_blank");
-    win.document.body.style.margin = "0";
+function openGame(game) {
+  document.getElementById("launcher").style.display = "none";
+  document.getElementById("player").classList.add("active");
+  document.getElementById("playerTitle").textContent = game.name;
 
-    const iframe = win.document.createElement("iframe");
-    iframe.src = `portal.html?game=${encodeURIComponent(file)}`;
-    iframe.style.width = "100%";
-    iframe.style.height = "100vh";
-    iframe.style.border = "none";
+  const frame = document.getElementById("gameFrame");
+  frame.src = `games/${game.path}`;
+}
 
-    win.document.body.appendChild(iframe);
-  }
+function closeGame() {
+  const frame = document.getElementById("gameFrame");
+  frame.src = "";
+  document.getElementById("player").classList.remove("active");
+  document.getElementById("launcher").style.display = "block";
+}
 </script>
 
 </body>
