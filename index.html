@@ -9,23 +9,24 @@
   body {
     margin: 0;
     font-family: system-ui, sans-serif;
-    background: #0d1117;
+    background: #0b0f16;
     color: #e6edf3;
   }
 
   header {
     padding: 1rem;
-    background: #161b22;
+    background: #121826;
     display: flex;
     gap: 1rem;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: 1px solid #22283a;
   }
 
   input, select {
-    background: #0d1117;
+    background: #0b0f16;
     color: #e6edf3;
-    border: 1px solid #30363d;
+    border: 1px solid #2a314a;
     padding: .5rem;
     border-radius: 6px;
   }
@@ -41,16 +42,18 @@
   }
 
   .card {
-    background: #161b22;
+    background: #151c2f;
     border-radius: 10px;
     padding: .75rem;
     text-align: center;
     cursor: pointer;
-    border: 1px solid #30363d;
+    border: 1px solid #2a314a;
+    transition: transform .15s ease, box-shadow .15s ease;
   }
 
   .card:hover {
-    background: #1f2933;
+    transform: translateY(-4px);
+    box-shadow: 0 0 12px rgba(90,120,255,.25);
   }
 
   .card img {
@@ -74,16 +77,16 @@
   }
 
   .pagination button {
-    background: #161b22;
+    background: #151c2f;
     color: #e6edf3;
-    border: 1px solid #30363d;
+    border: 1px solid #2a314a;
     padding: .4rem .6rem;
     border-radius: 6px;
     cursor: pointer;
   }
 
   .pagination button.active {
-    background: #238636;
+    background: #5a78ff;
   }
 </style>
 </head>
@@ -91,12 +94,10 @@
 
 <header>
   <input id="search" placeholder="Search games…" />
-
   <select id="sort">
     <option value="popularity" selected>Sort: Popularity</option>
     <option value="name">Sort: Name</option>
   </select>
-
   <select id="pageSize">
     <option value="50">50 / page</option>
     <option value="100" selected>100 / page</option>
@@ -122,18 +123,11 @@ fetch("games.json")
     applyFilter();
   });
 
-document.getElementById("pageSize").onchange = e => {
-  PAGE_SIZE = +e.target.value;
-  page = 0;
-  render();
-};
+const searchInput = document.getElementById("search");
+const sortSelect = document.getElementById("sort");
+const pageSizeSelect = document.getElementById("pageSize");
 
-document.getElementById("sort").onchange = () => {
-  page = 0;
-  applyFilter();
-};
-
-document.getElementById("search").oninput = e => {
+searchInput.oninput = () => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => {
     page = 0;
@@ -141,15 +135,25 @@ document.getElementById("search").oninput = e => {
   }, 150);
 };
 
+sortSelect.onchange = () => {
+  page = 0;
+  applyFilter();
+};
+
+pageSizeSelect.onchange = e => {
+  PAGE_SIZE = +e.target.value;
+  page = 0;
+  render();
+};
+
 function applyFilter() {
-  const q = document.getElementById("search").value.toLowerCase();
-  const sort = document.getElementById("sort").value;
+  const q = searchInput.value.toLowerCase();
 
   filtered = games.filter(g =>
     g.name.toLowerCase().includes(q)
   );
 
-  if (sort === "name") {
+  if (sortSelect.value === "name") {
     filtered.sort((a, b) => a.name.localeCompare(b.name));
   } else {
     filtered.sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0));
@@ -203,12 +207,13 @@ function renderPagination() {
     const b = document.createElement("button");
     b.textContent = i + 1;
     if (i === page) b.classList.add("active");
+
     b.onclick = () => {
       page = i;
-      renderGrid();
-      renderPagination();
+      render();
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
+
     p.appendChild(b);
   }
 }
@@ -216,9 +221,10 @@ function renderPagination() {
 function openGame(path) {
   const win = window.open("about:blank", "_blank");
   win.document.body.style.margin = "0";
+  win.document.body.style.background = "black";
 
   const iframe = win.document.createElement("iframe");
-  iframe.src = `portal.html?game=${encodeURIComponent(path)}`;
+  iframe.src = `games/${path}`;
   iframe.style.width = "100%";
   iframe.style.height = "100vh";
   iframe.style.border = "none";
