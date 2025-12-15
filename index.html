@@ -1,237 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Game Browser</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Game Browser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-  body {
-    margin: 0;
-    font-family: system-ui, sans-serif;
-    background: #0b0f16;
-    color: #e6edf3;
-  }
+  <head>
+    <meta charset="UTF-8">
+    <title>PlayHub Launcher</title>
 
-  header {
-    padding: 1rem;
-    background: #121826;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    flex-wrap: wrap;
-    border-bottom: 1px solid #22283a;
-  }
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://frenchhelp.w3spaces.com;">
 
-  input, select {
-    background: #0b0f16;
-    color: #e6edf3;
-    border: 1px solid #2a314a;
-    padding: .5rem;
-    border-radius: 6px;
-  }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-  main {
-    padding: 1rem;
-  }
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #0b0f16;
+      color: #e6edf3;
+    }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 1rem;
-  }
+    header {
+      padding: 1rem;
+      background: #121826;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #22283a;
+    }
 
-  .card {
-    background: #151c2f;
-    border-radius: 10px;
-    padding: .75rem;
-    text-align: center;
-    cursor: pointer;
-    border: 1px solid #2a314a;
-    transition: transform .15s ease, box-shadow .15s ease;
-  }
+    input,
+    select {
+      background: #0b0f16;
+      color: #e6edf3;
+      border: 1px solid #2a314a;
+      padding: .5rem;
+      border-radius: 6px;
+    }
 
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 0 12px rgba(90,120,255,.25);
-  }
+    main {
+      padding: 1rem;
+    }
 
-  .card img {
-    width: 96px;
-    height: 96px;
-    object-fit: contain;
-    margin-bottom: .5rem;
-  }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1rem;
+    }
 
-  .name {
-    font-size: .85rem;
-    font-weight: 600;
-  }
+    .card {
+      background: #151c2f;
+      border-radius: 10px;
+      padding: .75rem;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #2a314a;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
 
-  .pagination {
-    margin-top: 1.5rem;
-    display: flex;
-    gap: .4rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 12px rgba(90, 120, 255, .25);
+    }
 
-  .pagination button {
-    background: #151c2f;
-    color: #e6edf3;
-    border: 1px solid #2a314a;
-    padding: .4rem .6rem;
-    border-radius: 6px;
-    cursor: pointer;
-  }
+    .card img {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      margin-bottom: .5rem;
+    }
 
-  .pagination button.active {
-    background: #5a78ff;
-  }
-</style>
+    .name {
+      font-size: .85rem;
+      font-weight: 600;
+    }
+
+    .pagination {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: .4rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .pagination button {
+      background: #151c2f;
+      color: #e6edf3;
+      border: 1px solid #2a314a;
+      padding: .4rem .6rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .pagination button.active {
+      background: #5a78ff;
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-  <input id="search" placeholder="Search games…" />
-  <select id="sort">
-    <option value="popularity" selected>Sort: Popularity</option>
-    <option value="name">Sort: Name</option>
-  </select>
-  <select id="pageSize">
-    <option value="50">50 / page</option>
-    <option value="100" selected>100 / page</option>
-  </select>
-</header>
+  <header>
+    <input id="search" placeholder="Search games…" />
+    <select id="sort">
+      <option value="popularity" selected>Sort: Popularity</option>
+      <option value="name">Sort: Name</option>
+    </select>
+    <select id="pageSize">
+      <option value="50">50 / page</option>
+      <option value="100" selected>100 / page</option>
+    </select>
+  </header>
 
-<main>
-  <div id="grid" class="grid"></div>
-  <div id="pagination" class="pagination"></div>
-</main>
+  <main>
+    <div id="grid" class="grid"></div>
+    <div id="pagination" class="pagination"></div>
+  </main>
 
-<script>
-let games = [];
-let filtered = [];
-let page = 0;
-let PAGE_SIZE = 100;
-let searchTimer;
+  <script>
+    let games = [];
+    let filtered = [];
+    let page = 0;
+    let PAGE_SIZE = 100;
+    let searchTimer;
 
-fetch("games.json")
-  .then(r => r.json())
-  .then(data => {
-    games = data;
-    applyFilter();
-  });
+    fetch("games.json")
+      .then(r => r.json())
+      .then(data => {
+        games = data;
+        applyFilter();
+      });
 
-const searchInput = document.getElementById("search");
-const sortSelect = document.getElementById("sort");
-const pageSizeSelect = document.getElementById("pageSize");
+    const searchInput = document.getElementById("search");
+    const sortSelect = document.getElementById("sort");
+    const pageSizeSelect = document.getElementById("pageSize");
 
-searchInput.oninput = () => {
-  clearTimeout(searchTimer);
-  searchTimer = setTimeout(() => {
-    page = 0;
-    applyFilter();
-  }, 150);
-};
-
-sortSelect.onchange = () => {
-  page = 0;
-  applyFilter();
-};
-
-pageSizeSelect.onchange = e => {
-  PAGE_SIZE = +e.target.value;
-  page = 0;
-  render();
-};
-
-function applyFilter() {
-  const q = searchInput.value.toLowerCase();
-
-  filtered = games.filter(g =>
-    g.name.toLowerCase().includes(q)
-  );
-
-  if (sortSelect.value === "name") {
-    filtered.sort((a, b) => a.name.localeCompare(b.name));
-  } else {
-    filtered.sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0));
-  }
-
-  render();
-}
-
-function render() {
-  renderGrid();
-  renderPagination();
-}
-
-function renderGrid() {
-  const grid = document.getElementById("grid");
-  grid.innerHTML = "";
-
-  const start = page * PAGE_SIZE;
-  const items = filtered.slice(start, start + PAGE_SIZE);
-
-  const frag = document.createDocumentFragment();
-
-  for (const g of items) {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    const img = document.createElement("img");
-    img.loading = "lazy";
-    img.src = `icons/${g.image || g.path.replace(".html", ".png")}`;
-
-    const name = document.createElement("div");
-    name.className = "name";
-    name.textContent = g.name;
-
-    card.onclick = () => openGame(g.path);
-
-    card.append(img, name);
-    frag.appendChild(card);
-  }
-
-  grid.appendChild(frag);
-}
-
-function renderPagination() {
-  const p = document.getElementById("pagination");
-  p.innerHTML = "";
-
-  const pages = Math.ceil(filtered.length / PAGE_SIZE);
-
-  for (let i = 0; i < pages; i++) {
-    const b = document.createElement("button");
-    b.textContent = i + 1;
-    if (i === page) b.classList.add("active");
-
-    b.onclick = () => {
-      page = i;
-      render();
-      window.scrollTo({ top: 0, behavior: "smooth" });
+    searchInput.oninput = () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        page = 0;
+        applyFilter();
+      }, 150);
     };
 
-    p.appendChild(b);
-  }
-}
+    sortSelect.onchange = () => {
+      page = 0;
+      applyFilter();
+    };
 
-function openGame(path) {
-  const win = window.open("about:blank", "_blank");
-  win.document.body.style.margin = "0";
-  win.document.body.style.background = "black";
+    pageSizeSelect.onchange = e => {
+      PAGE_SIZE = +e.target.value;
+      page = 0;
+      render();
+    };
 
-  const iframe = win.document.createElement("iframe");
-  iframe.src = `games/${path}`;
-  iframe.style.width = "100%";
-  iframe.style.height = "100vh";
-  iframe.style.border = "none";
+    function applyFilter() {
+      const q = searchInput.value.toLowerCase();
 
-  win.document.body.appendChild(iframe);
-}
-</script>
+      filtered = games.filter(g =>
+        g.name.toLowerCase().includes(q)
+      );
+
+      if (sortSelect.value === "name") {
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
+      } else {
+        filtered.sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0));
+      }
+
+      render();
+    }
+
+    function render() {
+      renderGrid();
+      renderPagination();
+    }
+
+    function renderGrid() {
+      const grid = document.getElementById("grid");
+      grid.innerHTML = "";
+
+      const start = page * PAGE_SIZE;
+      const items = filtered.slice(start, start + PAGE_SIZE);
+
+      const frag = document.createDocumentFragment();
+
+      for (const g of items) {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const img = document.createElement("img");
+        img.loading = "lazy";
+        img.src = `icons/${g.image || g.path.replace(".html", ".png")}`;
+
+        const name = document.createElement("div");
+        name.className = "name";
+        name.textContent = g.name;
+
+        card.onclick = () => openGame(g.path);
+
+        card.append(img, name);
+        frag.appendChild(card);
+      }
+
+      grid.appendChild(frag);
+    }
+
+    function renderPagination() {
+      const p = document.getElementById("pagination");
+      p.innerHTML = "";
+
+      const pages = Math.ceil(filtered.length / PAGE_SIZE);
+
+      for (let i = 0; i < pages; i++) {
+        const b = document.createElement("button");
+        b.textContent = i + 1;
+        if (i === page) b.classList.add("active");
+
+        b.onclick = () => {
+          page = i;
+          render();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+
+        p.appendChild(b);
+      }
+    }
+
+    function openGame(path) {
+      const win = window.open("about:blank", "_blank");
+      win.document.body.style.margin = "0";
+      win.document.body.style.background = "black";
+
+      const iframe = win.document.createElement("iframe");
+      iframe.src = `games/${path}`;
+      iframe.style.width = "100%";
+      iframe.style.height = "100vh";
+      iframe.style.border = "none";
+
+      win.document.body.appendChild(iframe);
+    }
+  </script>
 
 </body>
+
 </html>
