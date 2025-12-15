@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PlayHub Launcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7e6a1aef81.js" crossorigin="anonymous"></script>
+
+  <style>
+    :root {
+      --bg: #0b0e17;
+      --bg-alt: #121527;
+      --card: #161a32;
+      --primary: #6c6cff;
+      --accent: #00f0ff;
+      --text: #e6e8ff;
+      --muted: #8a8fbf;
+      --glow: rgba(108,108,255,0.5);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      background: radial-gradient(circle at top, #121527, var(--bg));
+      color: var(--text);
+    }
+
+    /* GRID BACKGROUND */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background:
+        repeating-linear-gradient(90deg, rgba(255,255,255,.04) 0 1px, transparent 1px 40px),
+        repeating-linear-gradient(0deg, rgba(255,255,255,.04) 0 1px, transparent 1px 40px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 1;
+      padding: 1.4rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to right, #0b0e17, #121527);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+
+    header h1 {
+      font-family: Orbitron, sans-serif;
+      font-size: 2rem;
+      margin: 0;
+      color: var(--primary);
+      text-shadow: 0 0 10px var(--glow);
+    }
+
+    .controls {
+      display: flex;
+      gap: .6rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .controls input,
+    .controls select {
+      background: var(--bg-alt);
+      border: 1px solid rgba(255,255,255,.08);
+      color: var(--text);
+      padding: .55rem .75rem;
+      border-radius: 6px;
+      font-size: .9rem;
+      outline: none;
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1.6rem;
+      perspective: 1200px;
+    }
+
+    .game-card {
+      background: linear-gradient(145deg, #1a1f45, var(--card));
+      border-radius: 14px;
+      padding: 1rem .6rem;
+      text-align: center;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      transition: transform .25s ease, box-shadow .25s ease;
+      border: 1px solid rgba(255,255,255,.06);
+      contain: content;
+      will-change: transform;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px var(--glow);
+    }
+
+    .game-card img {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      border-radius: 10px;
+      margin-bottom: .6rem;
+    }
+
+    .game-name {
+      font-weight: 600;
+      font-size: .95rem;
+    }
+
+    /* PAGINATION */
+    .pagination {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: .4rem;
+      flex-wrap: wrap;
+    }
+
+    .pagination button {
+      background: var(--bg-alt);
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,.08);
+      padding: .4rem .7rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .pagination button.active {
+      background: var(--primary);
+      box-shadow: 0 0 10px var(--glow);
+    }
+
+    @media (hover: none) {
+      .game-card:hover { transform: none; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1><i class="fa-solid fa-gamepad"></i> PlayHub Launcher</h1>
+
+  <div class="controls">
+    <input id="search" type="text" placeholder="Search games…" />
+    <select id="sort">
+      <option value="name">Name</option>
+      <option value="popularity">Popularity</option>
+    </select>
+  </div>
+</header>
+
+<main>
+  <div id="gameGrid" class="grid"></div>
+  <div id="pagination" class="pagination"></div>
+</main>
+
+<script>
+  const PAGE_SIZE = 100;
+  let games = [];
+  let filtered = [];
+  let currentPage = 0;
+  let searchTimer;
+
+  fetch("games.json")
+    .then(r => r.json())
+    .then(data => {
+      games = data;
+      applyFilter();
+    });
+
+  const search = document.getElementById("search");
+  const sort = document.getElementById("sort");
+
+  search.addEventListener("input", () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      currentPage = 0;
+      applyFilter();
+    }, 150);
+  });
+
+  sort.addEventListener("change", () => {
+    currentPage = 0;
+    applyFilter();
+  });
+
+  function applyFilter() {
+    filtered = games.filter(g =>
+      g.name.toLowerCase().includes(search.value.toLowerCase())
+    );
+
+    if (sort.value === "name") {
+      filtered.sort((a,b) => a.name.localeCompare(b.name));
+    } else {
+      filtered.sort((a,b) => b.popularity - a.popularity);
+    }
+
+    renderPage();
+    renderPagination();
+  }
+
+  function renderPage() {
+    const grid = document.getElementById("gameGrid");
+    grid.innerHTML = "";
+
+    const start = currentPage * PAGE_SIZE;
+    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+
+    const fragment = document.createDocumentFragment();
+
+    pageItems.forEach(game => {
+      const card = document.createElement("div");
+      card.className = "game-card";
+
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.src = game.image || "https://via.placeholder.com/96?text=No+Image";
+
+      const name = document.createElement("div");
+      name.className = "game-name";
+      name.textContent = game.name;
+
+      card.append(img, name);
+      card.onclick = () => openPortal(game.path);
+
+      fragment.appendChild(card);
+    });
+
+    grid.appendChild(fragment);
+  }
+
+  function renderPagination() {
+    const container = document.getElementById("pagination");
+    container.innerHTML = "";
+
+    const pages = Math.ceil(filtered.length / PAGE_SIZE);
+
+    for (let i = 0; i < pages; i++) {
+      const btn = document.createElement("button");
+      btn.textContent = i + 1;
+      if (i === currentPage) btn.classList.add("active");
+
+      btn.onclick = () => {
+        currentPage = i;
+        renderPage();
+        renderPagination();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+
+      container.appendChild(btn);
+    }
+  }
+
+  function openPortal(path) {
+    const file = path.split("/").pop();
+    const win = window.open("about:blank", "_blank");
+    win.document.body.style.margin = "0";
+
+    const iframe = win.document.createElement("iframe");
+    iframe.src = `portal.html?game=${encodeURIComponent(file)}`;
+    iframe.style.width = "100%";
+    iframe.style.height = "100vh";
+    iframe.style.border = "none";
+
+    win.document.body.appendChild(iframe);
+  }
+</script>
+
+</body>
+</html>
