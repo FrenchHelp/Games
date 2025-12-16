@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>PlayHub Launcher</title>
@@ -29,7 +30,12 @@
       font-weight: 700;
     }
 
-    input, select {
+    h1:hover {
+      cursor: pointer;
+    }
+
+    input,
+    select {
       background: #0b0f16;
       color: #e6edf3;
       border: 1px solid #2a314a;
@@ -69,7 +75,7 @@
 
     .card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 0 14px rgba(90,120,255,.25);
+      box-shadow: 0 0 14px rgba(90, 120, 255, .25);
     }
 
     .card img {
@@ -77,6 +83,7 @@
       height: 96px;
       object-fit: contain;
       margin-bottom: .5rem;
+      border-radius: 10px;
     }
 
     .name {
@@ -93,165 +100,210 @@
       font-weight: 700;
     }
 
-    .verified_plus { background: #7c6cff; color: #0b0f16; }
-    .verified { background: #22c55e; color: #04120a; }
-    .playable { background: #38bdf8; color: #02141f; }
-    .not_checked { background: #f97316; color: #1b0c02; }
+    .verified_plus {
+      background: #7c6cff;
+      color: #0b0f16;
+    }
+
+    .verified {
+      background: #22c55e;
+      color: #04120a;
+    }
+
+    .playable {
+      background: #38bdf8;
+      color: #02141f;
+    }
+
+    .not_checked {
+      background: #f97316;
+      color: #1b0c02;
+    }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>PlayHub</h1>
+  <header>
+    <h1 onclick="window.location.href='index.html'">PlayHub</h1>
 
-  <input id="search" placeholder="Search games…" />
+    <input id="search" placeholder="Search games…" />
 
-  <select id="sort">
-    <option value="az" selected>A–Z</option>
-    <option value="za">Z–A</option>
-  </select>
+    <select id="sort">
+      <option value="az" selected>A–Z</option>
+      <option value="za">Z–A</option>
+    </select>
 
-  <select id="tierSelect">
-    <option value="verified_plus" selected>Verified+</option>
-    <option value="verified">Verified</option>
-    <option value="playable">Playable</option>
-    <option value="not_checked">Not Checked</option>
-    <option value="all">All Tiers</option>
-  </select>
-</header>
+    <select id="tierSelect">
+      <option value="verified_plus">Verified+</option>
+      <option value="verified">Verified</option>
+      <option value="playable">Playable</option>
+      <option value="not_checked">Not Checked</option>
+      <option value="all">All Tiers</option>
+    </select>
+  </header>
 
-<div id="warning" class="warning"></div>
+  <div id="warning" class="warning"></div>
 
-<main>
-  <div id="grid" class="grid"></div>
-</main>
+  <main>
+    <div id="grid" class="grid"></div>
+  </main>
 
-<script>
-let games = [];
-let filtered = [];
-let currentTier = "verified_plus";
-let searchTimer = null;
+  <script>
+    /* ---------- CONFIG ---------- */
+    const VALID_TIERS = [
+      "verified_plus",
+      "verified",
+      "playable",
+      "not_checked",
+      "all"
+    ];
 
-fetch("games.json")
-  .then(r => r.json())
-  .then(data => {
-    games = data;
-    applyFilters();
-  });
+    /* ---------- STATE ---------- */
+    let games = [];
+    let filtered = [];
+    let currentTier = "verified_plus";
+    let searchTimer = null;
 
-const searchInput = document.getElementById("search");
-const sortSelect = document.getElementById("sort");
-const tierSelect = document.getElementById("tierSelect");
-const warning = document.getElementById("warning");
+    /* ---------- URL PARAM ---------- */
+    const params = new URLSearchParams(window.location.search);
+    const tierParam = params.get("tier");
 
-searchInput.oninput = () => {
-  clearTimeout(searchTimer);
-  searchTimer = setTimeout(applyFilters, 120);
-};
-
-sortSelect.onchange = applyFilters;
-
-tierSelect.onchange = e => {
-  currentTier = e.target.value;
-  updateWarning();
-  applyFilters();
-};
-
-function updateWarning() {
-  if (currentTier === "verified_plus") {
-    warning.style.display = "none";
-    return;
-  }
-
-  let text = "";
-
-  if (currentTier === "verified") {
-    text = "Verified games are confirmed to load correctly but are not manually reviewed.";
-  } else if (currentTier === "playable") {
-    text = "Playable games load but may be unfinished or less stable.";
-  } else if (currentTier === "not_checked") {
-    text = "Not Checked games are untested and may not function correctly.";
-  } else {
-    text = "You are viewing all games. Some may be untested or unstable.";
-  }
-
-  warning.textContent = text;
-  warning.style.display = "block";
-}
-
-function applyFilters() {
-  const q = searchInput.value.toLowerCase();
-
-  filtered = games.filter(g => {
-    const matchesTier = currentTier === "all" || g.tier === currentTier;
-    const matchesSearch = g.name.toLowerCase().includes(q);
-    return matchesTier && matchesSearch;
-  });
-
-  filtered.sort((a, b) => {
-    const nameA = a.name.toLowerCase();
-    const nameB = b.name.toLowerCase();
-    return sortSelect.value === "az"
-      ? nameA.localeCompare(nameB)
-      : nameB.localeCompare(nameA);
-  });
-
-  render();
-}
-
-function render() {
-  const grid = document.getElementById("grid");
-  grid.innerHTML = "";
-
-  const frag = document.createDocumentFragment();
-
-  for (const g of filtered) {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    const img = document.createElement("img");
-    img.loading = "lazy";
-
-    if (g.tier === "verified_plus") {
-      img.src = `assets/game-icons/${g.image}`;
-    } else {
-      img.src = `icons/${g.image || g.path.replace(".html",".png")}`;
+    if (VALID_TIERS.includes(tierParam)) {
+      currentTier = tierParam;
     }
 
-    const name = document.createElement("div");
-    name.className = "name";
-    name.textContent = g.name;
+    /* ---------- LOAD ---------- */
+    fetch("games.json")
+      .then(r => r.json())
+      .then(data => {
+        games = data;
+        tierSelect.value = currentTier;
+        updateWarning();
+        applyFilters();
+      });
 
-    const badge = document.createElement("div");
-    badge.className = `badge ${g.tier}`;
-    badge.textContent = g.tier === "verified_plus"
-      ? "VERIFIED+"
-      : g.tier.replace("_"," ").toUpperCase();
+    /* ---------- ELEMENTS ---------- */
+    const searchInput = document.getElementById("search");
+    const sortSelect = document.getElementById("sort");
+    const tierSelect = document.getElementById("tierSelect");
+    const warning = document.getElementById("warning");
 
-    card.onclick = () => openGame(g.path);
+    /* ---------- EVENTS ---------- */
+    searchInput.oninput = () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(applyFilters, 120);
+    };
 
-    card.append(img, name, badge);
-    frag.appendChild(card);
-  }
+    sortSelect.onchange = applyFilters;
 
-  grid.appendChild(frag);
-}
+    tierSelect.onchange = e => {
+      currentTier = e.target.value;
+      updateURL();
+      updateWarning();
+      applyFilters();
+    };
 
-function openGame(path) {
-  const win = window.open("about:blank", "_blank");
-  win.document.body.style.margin = "0";
-  win.document.body.style.background = "black";
+    /* ---------- FUNCTIONS ---------- */
+    function updateURL() {
+      const url = new URL(window.location);
+      url.searchParams.set("tier", currentTier);
+      window.history.replaceState({}, "", url);
+    }
 
-  const iframe = win.document.createElement("iframe");
-  iframe.src = `games/${path}`;
-  iframe.style.width = "100%";
-  iframe.style.height = "100vh";
-  iframe.style.border = "none";
+    function updateWarning() {
+      if (currentTier === "verified_plus") {
+        warning.style.display = "none";
+        return;
+      }
 
-  win.document.body.appendChild(iframe);
-}
-</script>
+      let text = "";
+
+      if (currentTier === "verified") {
+        text = "Verified games are confirmed to load correctly but are not manually reviewed.";
+      } else if (currentTier === "playable") {
+        text = "Playable games load but may be unfinished or less stable.";
+      } else if (currentTier === "not_checked") {
+        text = "Not Checked games are untested and may not function correctly.";
+      } else {
+        text = "You are viewing all games. Some may be untested or unstable.";
+      }
+
+      warning.textContent = text;
+      warning.style.display = "block";
+    }
+
+    function applyFilters() {
+      const q = searchInput.value.toLowerCase();
+
+      filtered = games.filter(g => {
+        const matchesTier = currentTier === "all" || g.tier === currentTier;
+        const matchesSearch = g.name.toLowerCase().includes(q);
+        return matchesTier && matchesSearch;
+      });
+
+      filtered.sort((a, b) => {
+        const A = a.name.toLowerCase();
+        const B = b.name.toLowerCase();
+        return sortSelect.value === "az"
+          ? A.localeCompare(B)
+          : B.localeCompare(A);
+      });
+
+      render();
+    }
+
+    function render() {
+      const grid = document.getElementById("grid");
+      grid.innerHTML = "";
+
+      const frag = document.createDocumentFragment();
+
+      for (const g of filtered) {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const img = document.createElement("img");
+        img.loading = "lazy";
+
+        img.src = g.tier === "verified_plus"
+          ? `assets/game-icons/${g.image}`
+          : `icons/${g.image || g.path.replace(".html", ".png")}`;
+
+        const name = document.createElement("div");
+        name.className = "name";
+        name.textContent = g.name;
+
+        const badge = document.createElement("div");
+        badge.className = `badge ${g.tier}`;
+        badge.textContent = g.tier === "verified_plus"
+          ? "VERIFIED+"
+          : g.tier.replace("_", " ").toUpperCase();
+
+        card.onclick = () => openGame(g.path);
+
+        card.append(img, name, badge);
+        frag.appendChild(card);
+      }
+
+      grid.appendChild(frag);
+    }
+
+    function openGame(path) {
+      const win = window.open("about:blank", "_blank");
+      win.document.body.style.margin = "0";
+      win.document.body.style.background = "black";
+
+      const iframe = win.document.createElement("iframe");
+      iframe.src = `games/${path}`;
+      iframe.style.width = "100%";
+      iframe.style.height = "100vh";
+      iframe.style.border = "none";
+
+      win.document.body.appendChild(iframe);
+    }
+  </script>
 
 </body>
+
 </html>

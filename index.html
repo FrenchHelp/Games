@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlayHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: radial-gradient(circle at top, #121826, #0b0f16 60%);
+      color: #e6edf3;
+    }
+
+    header {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: .5rem;
+      letter-spacing: .5px;
+    }
+
+    header p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #aab4c3;
+      font-size: 1rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .tiers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.2rem;
+      margin-bottom: 3rem;
+    }
+
+    .tier {
+      background: #151c2f;
+      border-radius: 14px;
+      padding: 1.4rem;
+      border: 1px solid #2a314a;
+      position: relative;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .tier:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 20px rgba(90,120,255,.25);
+    }
+
+    .tier h2 {
+      margin-top: 0;
+      margin-bottom: .4rem;
+    }
+
+    .tier p {
+      font-size: .9rem;
+      color: #b6c0d1;
+      line-height: 1.4;
+    }
+
+    .tier a {
+      display: inline-block;
+      margin-top: .8rem;
+      color: #5a78ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .verified_plus { border-left: 4px solid #7c6cff; }
+    .verified { border-left: 4px solid #22c55e; }
+    .playable { border-left: 4px solid #38bdf8; }
+    .not_checked { border-left: 4px solid #f97316; }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h3 {
+      margin-bottom: .6rem;
+    }
+
+    section p, li {
+      color: #b6c0d1;
+      font-size: .9rem;
+      line-height: 1.5;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      border-top: 1px solid #22283a;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      font-size: .75rem;
+      color: #8a94a6;
+    }
+
+    footer a {
+      color: #8a94a6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>PlayHub</h1>
+  <p>A curated and community-driven hub for browser games — organized by quality, popularity, and reliability.</p>
+</header>
+
+<main>
+
+  <!-- TIERS -->
+  <div class="tiers">
+
+    <div class="tier verified_plus">
+      <h2>Verified+</h2>
+      <p>
+        Top-tier games that are manually reviewed, highly popular, and confirmed to work reliably.
+      </p>
+      <a href="list.html?tier=verified_plus">Browse Verified+</a>
+    </div>
+
+    <div class="tier verified">
+      <h2>Verified</h2>
+      <p>
+        Games that load correctly and are trusted by users, but are not manually reviewed.
+      </p>
+      <a href="list.html?tier=verified">Browse Verified</a>
+    </div>
+
+    <div class="tier playable">
+      <h2>Playable</h2>
+      <p>
+        Games that run in the browser but may be unfinished, experimental, or less popular.
+      </p>
+      <a href="list.html?tier=playable">Browse Playable</a>
+    </div>
+
+    <div class="tier not_checked">
+      <h2>Not Checked</h2>
+      <p>
+        Untested or newly added games. These may not function correctly or as expected.
+      </p>
+      <a href="list.html?tier=not_checked">Browse Not Checked</a>
+    </div>
+
+  </div>
+
+  <!-- FAQ -->
+  <section>
+    <h3>FAQ</h3>
+    <ul>
+      <li><strong>Do these games run on school computers?</strong><br>
+        Most games are browser-based HTML games. Performance depends on the device and network restrictions.</li>
+
+      <li><strong>Why are some games marked Not Checked?</strong><br>
+        The library is very large. Not all games are tested immediately.</li>
+
+      <li><strong>What makes a game Verified+?</strong><br>
+        Verified+ games are popular, manually reviewed, and confirmed to load and play correctly.</li>
+
+      <li><strong>Can games move between tiers?</strong><br>
+        Yes. Games can be promoted based on popularity, stability, and review.</li>
+    </ul>
+  </section>
+
+  <!-- LEGAL -->
+  <section>
+    <h3>Legal & Disclaimer</h3>
+    <p>
+      PlayHub does not host or claim ownership of third-party games. All games remain the property
+      of their respective creators. PlayHub provides access for educational and entertainment purposes only.
+    </p>
+    <p>
+      Verified status indicates that a game loads correctly at the time of testing. It does not guarantee
+      future availability or functionality.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  © PlayHub • Browser-based games • No downloads required
+</footer>
+
+</body>
+</html>
