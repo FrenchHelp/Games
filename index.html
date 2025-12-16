@@ -11,111 +11,106 @@
     crossorigin="anonymous"></script>
 
   <style>
-    /* your existing CSS unchanged */
-  </style>
-</head>
-
-<style>
-  body {
-    margin: 0;
-    font-family: system-ui, sans-serif;
-    background: #0b0f16;
-    color: #e6edf3;
-  }
-
-  header {
-    padding: 1rem;
-    background: #121826;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    flex-wrap: wrap;
-    border-bottom: 1px solid #22283a;
-  }
-
-  input,
-  select {
-    background: #0b0f16;
-    color: #e6edf3;
-    border: 1px solid #2a314a;
-    padding: .5rem;
-    border-radius: 6px;
-  }
-
-  main {
-    padding: 1rem;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 1rem;
-  }
-
-  .card {
-    background: #151c2f;
-    border-radius: 10px;
-    padding: .75rem;
-    text-align: center;
-    cursor: pointer;
-    border: 1px solid #2a314a;
-    transition: transform .15s ease, box-shadow .15s ease;
-  }
-
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 0 12px rgba(90, 120, 255, .25);
-  }
-
-  .card img {
-    width: 96px;
-    height: 96px;
-    object-fit: contain;
-    margin-bottom: .5rem;
-  }
-
-  .name {
-    font-size: .85rem;
-    font-weight: 600;
-  }
-
-  .pagination {
-    margin-top: 1.5rem;
-    display: flex;
-    gap: .4rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .pagination button {
-    background: #151c2f;
-    color: #e6edf3;
-    border: 1px solid #2a314a;
-    padding: .4rem .6rem;
-    border-radius: 6px;
-    cursor: pointer;
-  }
-
-  .pagination button.active {
-    background: #5a78ff;
-  }
-
-  .ad-container {
-    min-width: 300px;
-    min-height: 60px;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  @media (max-width: 900px) {
-    .ad-container {
-      width: 100%;
-      order: 99;
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #0b0f16;
+      color: #e6edf3;
     }
-  }
-</style>
+
+    header {
+      padding: 1rem;
+      background: #121826;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #22283a;
+    }
+
+    input,
+    select {
+      background: #0b0f16;
+      color: #e6edf3;
+      border: 1px solid #2a314a;
+      padding: .5rem;
+      border-radius: 6px;
+    }
+
+    main {
+      padding: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #151c2f;
+      border-radius: 10px;
+      padding: .75rem;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #2a314a;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 12px rgba(90, 120, 255, .25);
+    }
+
+    .card img {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      margin-bottom: .5rem;
+    }
+
+    .name {
+      font-size: .85rem;
+      font-weight: 600;
+    }
+
+    .pagination {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: .4rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .pagination button {
+      background: #151c2f;
+      color: #e6edf3;
+      border: 1px solid #2a314a;
+      padding: .4rem .6rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .pagination button.active {
+      background: #5a78ff;
+    }
+
+    .ad-container {
+      min-width: 300px;
+      min-height: 60px;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (max-width: 900px) {
+      .ad-container {
+        width: 100%;
+        order: 99;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -135,8 +130,7 @@
 
     <div class="ad-container">
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3756925945648627" data-ad-slot="4229355123"
-        data-ad-format="auto" data-full-width-responsive="true">
-      </ins>
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
     </div>
   </header>
 
@@ -184,10 +178,7 @@
 
     function applyFilter() {
       const q = searchInput.value.toLowerCase();
-
-      filtered = games.filter(g =>
-        g.name.toLowerCase().includes(q)
-      );
+      filtered = games.filter(g => g.name.toLowerCase().includes(q));
 
       if (sortSelect.value === "name") {
         filtered.sort((a, b) => a.name.localeCompare(b.name));
@@ -267,20 +258,15 @@
 
       win.document.body.appendChild(iframe);
     }
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3756925945648627"
-    crossorigin="anonymous">
-    </script>
-  <script>
+
     window.addEventListener("load", () => {
       setTimeout(() => {
         try {
           (adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) { }
+        } catch { }
       }, 500);
     });
   </script>
-
 
 </body>
 
