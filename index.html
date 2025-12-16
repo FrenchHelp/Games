@@ -6,7 +6,7 @@
   <title>Game Browser</title>
   <!--Adsense tag-->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3756925945648627"
-     crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -103,21 +103,39 @@
     .pagination button.active {
       background: #5a78ff;
     }
+
+    .ad-container {
+      min-width: 300px;
+      min-height: 60px;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (max-width: 900px) {
+      .ad-container {
+        width: 100%;
+        order: 99;
+      }
+    }
   </style>
 </head>
 
 <body>
 
   <header>
-    <input id="search" placeholder="Search games…" />
-    <select id="sort">
-      <option value="popularity" selected>Sort: Popularity</option>
-      <option value="name">Sort: Name</option>
-    </select>
-    <select id="pageSize">
-      <option value="50">50 / page</option>
-      <option value="100" selected>100 / page</option>
-    </select>
+    <header>
+      <input id="search" placeholder="Search games…" />
+      <select id="sort">...</select>
+      <select id="pageSize">...</select>
+
+      <div class="ad-container">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3756925945648627"
+          data-ad-slot="4229355123" data-ad-format="auto" data-full-width-responsive="true">
+        </ins>
+      </div>
+    </header>
   </header>
 
   <main>
@@ -248,6 +266,19 @@
       win.document.body.appendChild(iframe);
     }
   </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3756925945648627"
+    crossorigin="anonymous">
+    </script>
+  <script>
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) { }
+      }, 500);
+    });
+  </script>
+
 
 </body>
 
