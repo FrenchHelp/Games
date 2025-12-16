@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Cookie Clicker",
+        "path": "clcookieclickercool.html",
+        "image": "cookieclicker.png"
+    },
+    {
+        "name": "Jetpack Joyride",
+        "path": "cljetpackjoyride.html",
+        "image": "jetpackjoyride.png"
+    },
+    {
+        "name": "Minecraft 1.8.8",
+        "path": "clminecraft1-8-8.html",
+        "image": "minecraft1.png"
+    },
+    {
+        "name": "agar.io",
+        "path": "clagar.io.html",
+        "image": "agar.io.png"
+    }
+]
