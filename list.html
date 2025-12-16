@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlayHub Launcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #0b0f16;
+      color: #e6edf3;
+    }
+
+    header {
+      padding: 1rem;
+      background: #121826;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #22283a;
+    }
+
+    h1 {
+      font-size: 1.1rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    input, select {
+      background: #0b0f16;
+      color: #e6edf3;
+      border: 1px solid #2a314a;
+      padding: .45rem .6rem;
+      border-radius: 6px;
+    }
+
+    .warning {
+      display: none;
+      width: 100%;
+      background: #2a1a1a;
+      color: #ffb4b4;
+      padding: .6rem 1rem;
+      border-left: 4px solid #ff4d4d;
+      font-size: .85rem;
+    }
+
+    main {
+      padding: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #151c2f;
+      border-radius: 10px;
+      padding: .75rem;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #2a314a;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 14px rgba(90,120,255,.25);
+    }
+
+    .card img {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      margin-bottom: .5rem;
+    }
+
+    .name {
+      font-size: .85rem;
+      font-weight: 600;
+    }
+
+    .badge {
+      margin-top: .35rem;
+      display: inline-block;
+      font-size: .65rem;
+      padding: .15rem .45rem;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+
+    .verified_plus { background: #7c6cff; color: #0b0f16; }
+    .verified { background: #22c55e; color: #04120a; }
+    .playable { background: #38bdf8; color: #02141f; }
+    .not_checked { background: #f97316; color: #1b0c02; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>PlayHub</h1>
+
+  <input id="search" placeholder="Search games…" />
+
+  <select id="sort">
+    <option value="az" selected>A–Z</option>
+    <option value="za">Z–A</option>
+  </select>
+
+  <select id="tierSelect">
+    <option value="verified_plus" selected>Verified+</option>
+    <option value="verified">Verified</option>
+    <option value="playable">Playable</option>
+    <option value="not_checked">Not Checked</option>
+    <option value="all">All Tiers</option>
+  </select>
+</header>
+
+<div id="warning" class="warning"></div>
+
+<main>
+  <div id="grid" class="grid"></div>
+</main>
+
+<script>
+let games = [];
+let filtered = [];
+let currentTier = "verified_plus";
+let searchTimer = null;
+
+fetch("games.json")
+  .then(r => r.json())
+  .then(data => {
+    games = data;
+    applyFilters();
+  });
+
+const searchInput = document.getElementById("search");
+const sortSelect = document.getElementById("sort");
+const tierSelect = document.getElementById("tierSelect");
+const warning = document.getElementById("warning");
+
+searchInput.oninput = () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(applyFilters, 120);
+};
+
+sortSelect.onchange = applyFilters;
+
+tierSelect.onchange = e => {
+  currentTier = e.target.value;
+  updateWarning();
+  applyFilters();
+};
+
+function updateWarning() {
+  if (currentTier === "verified_plus") {
+    warning.style.display = "none";
+    return;
+  }
+
+  let text = "";
+
+  if (currentTier === "verified") {
+    text = "Verified games are confirmed to load correctly but are not manually reviewed.";
+  } else if (currentTier === "playable") {
+    text = "Playable games load but may be unfinished or less stable.";
+  } else if (currentTier === "not_checked") {
+    text = "Not Checked games are untested and may not function correctly.";
+  } else {
+    text = "You are viewing all games. Some may be untested or unstable.";
+  }
+
+  warning.textContent = text;
+  warning.style.display = "block";
+}
+
+function applyFilters() {
+  const q = searchInput.value.toLowerCase();
+
+  filtered = games.filter(g => {
+    const matchesTier = currentTier === "all" || g.tier === currentTier;
+    const matchesSearch = g.name.toLowerCase().includes(q);
+    return matchesTier && matchesSearch;
+  });
+
+  filtered.sort((a, b) => {
+    const nameA = a.name.toLowerCase();
+    const nameB = b.name.toLowerCase();
+    return sortSelect.value === "az"
+      ? nameA.localeCompare(nameB)
+      : nameB.localeCompare(nameA);
+  });
+
+  render();
+}
+
+function render() {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  const frag = document.createDocumentFragment();
+
+  for (const g of filtered) {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const img = document.createElement("img");
+    img.loading = "lazy";
+
+    if (g.tier === "verified_plus") {
+      img.src = `assets/game-icons/${g.image}`;
+    } else {
+      img.src = `icons/${g.image || g.path.replace(".html",".png")}`;
+    }
+
+    const name = document.createElement("div");
+    name.className = "name";
+    name.textContent = g.name;
+
+    const badge = document.createElement("div");
+    badge.className = `badge ${g.tier}`;
+    badge.textContent = g.tier === "verified_plus"
+      ? "VERIFIED+"
+      : g.tier.replace("_"," ").toUpperCase();
+
+    card.onclick = () => openGame(g.path);
+
+    card.append(img, name, badge);
+    frag.appendChild(card);
+  }
+
+  grid.appendChild(frag);
+}
+
+function openGame(path) {
+  const win = window.open("about:blank", "_blank");
+  win.document.body.style.margin = "0";
+  win.document.body.style.background = "black";
+
+  const iframe = win.document.createElement("iframe");
+  iframe.src = `games/${path}`;
+  iframe.style.width = "100%";
+  iframe.style.height = "100vh";
+  iframe.style.border = "none";
+
+  win.document.body.appendChild(iframe);
+}
+</script>
+
+</body>
+</html>
