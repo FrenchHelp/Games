@@ -35,10 +35,10 @@
     "popularity": 0
   },
   {
-    "name": "1 V 1 Lol",
+    "name": "1v1.lol",
     "path": "cl1v1lol.html",
-    "image": "cl1v1lol.png",
-    "tier": "not_checked",
+    "image": "1v1lol.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
@@ -59,56 +59,56 @@
     "name": "2048 Cupcakes",
     "path": "cl2048cupcakes.html",
     "image": "cl2048cupcakes.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "2 Doom",
     "path": "cl2doom.html",
     "image": "cl2doom.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "2 Dshooting",
+    "name": "2D shooting",
     "path": "cl2Dshooting.html",
     "image": "cl2Dshooting.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "3 Dash",
     "path": "cl3dash.html",
     "image": "cl3dash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "3 Slices 2",
     "path": "cl3slices2.html",
     "image": "cl3slices2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "40 Xescape",
+    "name": "40X escape",
     "path": "cl40xescape.html",
     "image": "cl40xescape.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "4 Thandgoal",
+    "name": "4th and goal",
     "path": "cl4thandgoal.html",
     "image": "cl4thandgoal.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "60 Secondsburgerrun",
+    "name": "60 Seconds Burger Run",
     "path": "cl60secondsburgerrun.html",
     "image": "cl60secondsburgerrun.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -122,81 +122,74 @@
     "name": "8 Ballpool",
     "path": "cl8ballpool.html",
     "image": "cl8ballpool.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "9007199254740992",
     "path": "cl9007199254740992.html",
     "image": "cl9007199254740992.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "99 Balls",
     "path": "cl99balls.html",
     "image": "cl99balls.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "99 Nightsitf",
+    "name": "99 Nights In The Forest",
     "path": "cl99nightsitf.html",
     "image": "cl99nightsitf.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Abandoned 3",
     "path": "clabandoned3.html",
     "image": "clabandoned3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Acecombat 2",
+    "name": "Ace Combat 2",
     "path": "clacecombat2.html",
     "image": "clacecombat2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Acecombat 3",
+    "name": "Ace Combat 3",
     "path": "clacecombat3.html",
     "image": "clacecombat3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Acegangstertaxi",
+    "name": "Ace Gangster tTaxi",
     "path": "clacegangstertaxi.html",
     "image": "clacegangstertaxi.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Achievementunlocked",
+    "name": "Achievement Unlocked",
     "path": "clachievementunlocked.html",
     "image": "clachievementunlocked.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Achievmentunlocked",
-    "path": "clachievmentunlocked.html",
-    "image": "clachievmentunlocked.png",
-    "tier": "not_checked",
-    "popularity": 0
-  },
-  {
-    "name": "Achievmentunlocked 2",
+    "name": "Achievement Unlocked 2",
     "path": "clachievmentunlocked2.html",
     "image": "clachievmentunlocked2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Achievmentunlocked 3",
+    "name": "Achievement Unlocked 3",
     "path": "clachievmentunlocked3.html",
     "image": "clachievmentunlocked3.png",
     "tier": "not_checked",
@@ -206,49 +199,49 @@
     "name": "Achillies",
     "path": "clachillies.html",
     "image": "clachillies.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Achillies 2",
     "path": "clachillies2.html",
     "image": "clachillies2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Adark Room",
+    "name": "A dark Room",
     "path": "clADarkRoom.html",
     "image": "clADarkRoom.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Adayintheoffice",
+    "name": "A day in the office",
     "path": "cladayintheoffice.html",
     "image": "cladayintheoffice.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Adofai",
+    "name": "ADOFI",
     "path": "clADOFAI.html",
     "image": "clADOFAI.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Advancewars",
+    "name": "Advance Wars",
     "path": "cladvancewars.html",
     "image": "cladvancewars.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Advancewars 2",
+    "name": "Advance Wars 2",
     "path": "cladvancewars2.html",
     "image": "cladvancewars2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -259,52 +252,52 @@
     "popularity": 0
   },
   {
-    "name": "Ageofwar",
+    "name": "Age of War",
     "path": "clageofwar.html",
     "image": "clageofwar.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Ageofwar 2",
+    "name": "Age of War 2",
     "path": "clageofwar2.html",
     "image": "clageofwar2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Agesofconflict",
+    "name": "Ages of Conflict",
     "path": "clagesofconflict.html",
     "image": "clagesofconflict.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Ahoysurvival",
+    "name": "Ahoy Survival",
     "path": "clahoysurvival.html",
     "image": "clahoysurvival.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Ai",
+    "name": "AI bot",
     "path": "clai.html",
     "image": "clai.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Akoopasrevenge",
+    "name": "A Koopa's Revenge",
     "path": "clakoopasrevenge.html",
     "image": "clakoopasrevenge.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Akoopasrevenge 2",
+    "name": "A koopa's Revenge 2",
     "path": "clakoopasrevenge2.html",
     "image": "clakoopasrevenge2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {

@@ -399,6 +399,115 @@
       });
   </script>
 
+  <script>
+    const PAGE_SIZE = 50; // Number of games per "page"
+    let currentPage = 1;
+
+    function applyFilters() {
+      const q = searchInput.value.toLowerCase();
+
+      filtered = games.filter(g => {
+        const matchesTier = currentTier === "all" || g.tier === currentTier;
+        const matchesSearch = g.name.toLowerCase().includes(q);
+        return matchesTier && matchesSearch;
+      });
+
+      filtered.sort((a, b) => {
+        const A = a.name.toLowerCase();
+        const B = b.name.toLowerCase();
+        return sortSelect.value === "az"
+          ? A.localeCompare(B)
+          : B.localeCompare(A);
+      });
+
+      currentPage = 1; // Reset pagination on filter change
+      render();
+    }
+
+    function render() {
+      const grid = document.getElementById("grid");
+      grid.innerHTML = "";
+
+      const frag = document.createDocumentFragment();
+      const start = 0;
+      const end = PAGE_SIZE * currentPage;
+      const pageItems = filtered.slice(start, end);
+
+      for (const g of pageItems) {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const img = document.createElement("img");
+        img.loading = "lazy";
+
+        img.src = g.tier === "verified_plus"
+          ? `assets/game-icons/${g.image}`
+          : `icons/${g.image || g.path.replace(".html", ".png")}`;
+
+        const name = document.createElement("div");
+        name.className = "name";
+        name.textContent = g.name;
+
+        const badge = document.createElement("div");
+        badge.className = `badge ${g.tier}`;
+        badge.textContent = g.tier === "verified_plus"
+          ? "VERIFIED+"
+          : g.tier.replace("_", " ").toUpperCase();
+
+        card.onclick = () => openGame(g.path);
+
+        card.append(img, name, badge);
+        frag.appendChild(card);
+      }
+
+      grid.appendChild(frag);
+      renderLoadMoreButton();
+    }
+
+    function renderLoadMoreButton() {
+      const main = document.querySelector("main");
+      let btn = document.getElementById("loadMoreBtn");
+
+      if (!btn) {
+        btn = document.createElement("button");
+        btn.id = "loadMoreBtn";
+        btn.textContent = "Load More";
+        btn.style.margin = "1rem auto";
+        btn.style.display = "block";
+        btn.style.padding = ".6rem 1.2rem";
+        btn.style.background = "#7c6cff";
+        btn.style.color = "#fff";
+        btn.style.border = "none";
+        btn.style.borderRadius = "6px";
+        btn.style.cursor = "pointer";
+        btn.onclick = () => {
+          currentPage++;
+          render();
+        };
+        main.appendChild(btn);
+      }
+
+      // Hide button if all items are loaded
+      if (PAGE_SIZE * currentPage >= filtered.length) {
+        btn.style.display = "none";
+      } else {
+        btn.style.display = "block";
+      }
+    }
+
+    // Optional: infinite scroll instead of button
+    window.addEventListener("scroll", () => {
+      const scrollBottom = window.innerHeight + window.scrollY;
+      const documentHeight = document.documentElement.scrollHeight;
+      if (scrollBottom >= documentHeight - 50) { // Near bottom
+        if (PAGE_SIZE * currentPage < filtered.length) {
+          currentPage++;
+          render();
+        }
+      }
+    });
+
+  </script>
 
 </body>
 
