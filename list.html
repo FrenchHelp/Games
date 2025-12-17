@@ -121,6 +121,12 @@
       background: #f97316;
       color: #1b0c02;
     }
+
+    #recentlyPlayedContainer {
+      padding: 1rem;
+      border-bottom: 1px solid #22283a;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 
@@ -144,6 +150,8 @@
       <option value="all">All Tiers</option>
     </select>
   </header>
+
+  <div id="recentlyPlayedContainer" class="grid"></div>
 
   <div id="warning" class="warning"></div>
 
@@ -305,6 +313,92 @@
       win.document.body.appendChild(iframe);
     }
   </script>
+  <script>
+    const MAX_RECENT = 5;
+
+    // Load recently played from localStorage
+    function getRecentlyPlayed() {
+      return JSON.parse(localStorage.getItem('recentlyPlayed') || '[]');
+    }
+
+    // Save recently played to localStorage
+    function addRecentlyPlayed(game) {
+      let recent = getRecentlyPlayed();
+
+      // Remove if already exists
+      recent = recent.filter(g => g.path !== game.path);
+
+      // Add to front
+      recent.unshift(game);
+
+      // Limit length
+      if (recent.length > MAX_RECENT) recent = recent.slice(0, MAX_RECENT);
+
+      localStorage.setItem('recentlyPlayed', JSON.stringify(recent));
+    }
+
+    // Render recently played games
+    function renderRecentlyPlayed() {
+      const container = document.getElementById('recentlyPlayedContainer');
+      container.innerHTML = '';
+      const recent = getRecentlyPlayed();
+      if (recent.length === 0) return;
+
+
+      const frag = document.createDocumentFragment();
+
+      for (const g of recent) {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const img = document.createElement('img');
+        img.loading = "lazy";
+        img.src = g.tier === 'verified_plus'
+          ? `assets/game-icons/${g.image}`
+          : `icons/${g.image || g.path.replace('.html', '.png')}`;
+
+        const name = document.createElement('div');
+        name.className = 'name';
+        name.textContent = g.name;
+
+        card.onclick = () => openGame(g.path);
+
+        card.append(img, name);
+        frag.appendChild(card);
+      }
+
+      container.appendChild(frag);
+    }
+
+    // Modify openGame to track recent games
+    function openGame(path) {
+      const game = games.find(g => g.path === path);
+      if (game) addRecentlyPlayed(game);
+      renderRecentlyPlayed(); // update UI immediately
+
+      const win = window.open("about:blank", "_blank");
+      win.document.body.style.margin = "0";
+      win.document.body.style.background = "black";
+
+      const iframe = win.document.createElement("iframe");
+      iframe.src = `games/${path}`;
+      iframe.style.width = "100%";
+      iframe.style.height = "100vh";
+      iframe.style.border = "none";
+
+      win.document.body.appendChild(iframe);
+    }
+
+    // Call renderRecentlyPlayed after games load
+    fetch("games.json")
+      .then(r => r.json())
+      .then(data => {
+        games = data;
+        renderRecentlyPlayed();
+        applyFilters(); // main grid
+      });
+  </script>
+
 
 </body>
 

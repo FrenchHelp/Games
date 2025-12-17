@@ -3,35 +3,35 @@
     "name": "1",
     "path": "cl1.html",
     "image": "cl1.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
     "name": "10 Bullets",
     "path": "cl10bullets.html",
     "image": "cl10bullets.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "10 Minutestildawn",
+    "name": "10 Minutes til dawn",
     "path": "cl10minutestildawn.html",
     "image": "cl10minutestildawn.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
     "name": "12 Minibattles",
     "path": "cl12minibattles.html",
     "image": "cl12minibattles.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "1 On 1 Soccer",
     "path": "cl1on1soccer.html",
     "image": "cl1on1soccer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -45,7 +45,7 @@
     "name": "1 V 1 Tennis",
     "path": "cl1v1tennis.html",
     "image": "cl1v1tennis.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
