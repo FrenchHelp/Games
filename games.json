@@ -112,10 +112,10 @@
     "popularity": 0
   },
   {
-    "name": "60 Secondssantarun",
+    "name": "60 Seconds Santa Run",
     "path": "cl60secondssantarun.html",
     "image": "cl60secondssantarun.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -192,7 +192,7 @@
     "name": "Achievement Unlocked 3",
     "path": "clachievmentunlocked3.html",
     "image": "clachievmentunlocked3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -301,45 +301,45 @@
     "popularity": 0
   },
   {
-    "name": "Alienhominid",
+    "name": "Alien Hominid",
     "path": "clalienhominid.html",
     "image": "clalienhominid.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Alienhominidgba",
+    "name": "Alien Hominid (GBA)",
     "path": "clalienhominidgba.html",
     "image": "clalienhominidgba.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Alienskyinvasion",
+    "name": "Alien Sky Invasion",
     "path": "clalienskyinvasion.html",
     "image": "clalienskyinvasion.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Alientransporter",
+    "name": "Alien Transporter",
     "path": "clalientransporter.html",
     "image": "clalientransporter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Alienvspredator",
+    "name": "Alien vs Predator",
     "path": "clalienvspredator.html",
     "image": "clalienvspredator.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Allocation",
     "path": "clallocation.html",
     "image": "clallocation.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -350,52 +350,52 @@
     "popularity": 0
   },
   {
-    "name": "Amidstthesky",
+    "name": "Amidst the Sky",
     "path": "clamidstthesky.html",
     "image": "clamidstthesky.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Amigopancho",
+    "name": "Amigo Pancho",
     "path": "clamigopancho.html",
     "image": "clamigopancho.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Amigopancho 2",
+    "name": "Amigo Pancho 2",
     "path": "clamigopancho2.html",
     "image": "clamigopancho2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Amigopancho 3",
+    "name": "Amigo Pancho 3",
     "path": "clamigopancho3.html",
     "image": "clamigopancho3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Amigopancho 4",
+    "name": "Amigo Pancho 4",
     "path": "clamigopancho4.html",
     "image": "clamigopancho4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Amigopancho 5",
+    "name": "Amigo Pancho 5",
     "path": "clamigopancho5.html",
     "image": "clamigopancho5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Amigopancho 6",
     "path": "clamigopancho6.html",
     "image": "clamigopancho6.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -406,17 +406,17 @@
     "popularity": 0
   },
   {
-    "name": "Amongus",
+    "name": "AmongUs",
     "path": "clamongus.html",
-    "image": "clamongus.png",
-    "tier": "not_checked",
+    "image": "amongus.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
     "name": "Amorphous",
     "path": "clamorphous.html",
     "image": "clamorphous.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -427,101 +427,101 @@
     "popularity": 0
   },
   {
-    "name": "Angrybirds Space",
+    "name": "AngryBirds Space",
     "path": "clangrybirds-space.html",
     "image": "clangrybirds-space.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Angrybirds",
+    "name": "AngryBirds",
     "path": "clangrybirds.html",
     "image": "clangrybirds.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Angrybirdsshowdown",
+    "name": "AngryBirds Showdown",
     "path": "clangrybirdsshowdown.html",
     "image": "clangrybirdsshowdown.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Animalcrossingwildworld",
+    "name": "Animal Crossing: Wild World",
     "path": "clanimalcrossingwildworld.html",
     "image": "clanimalcrossingwildworld.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Anotherworld",
+    "name": "Another World",
     "path": "clanotherworld.html",
     "image": "clanotherworld.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Appleshooter",
+    "name": "Apple Shooter",
     "path": "clappleshooter.html",
     "image": "clappleshooter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Appleworm",
+    "name": "Apple Worm",
     "path": "clappleworm.html",
     "image": "clappleworm.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Aquaparkio",
+    "name": "AquaPark.io",
     "path": "claquaparkio.html",
     "image": "claquaparkio.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Archeryworldtour",
+    "name": "Archery World Tour",
     "path": "clarcheryworldtour.html",
     "image": "clarcheryworldtour.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Arena",
+    "name": "Elder Scrolls: Arena",
     "path": "clarena.html",
     "image": "clarena.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
     "name": "Ascent",
     "path": "clascent.html",
     "image": "clascent.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Asmallworldcup",
+    "name": "A small world cup",
     "path": "clasmallworldcup.html",
     "image": "clasmallworldcup.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Assesmentexaminationque",
+    "name": "Assesment Examination",
     "path": "classesmentexaminationque.html",
     "image": "classesmentexaminationque.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Asteroids",
     "path": "clasteroids.html",
     "image": "clasteroids.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -556,186 +556,186 @@
     "name": "Awesome Pirates",
     "path": "clAwesomePirates.html",
     "image": "clAwesomePirates.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Awesomeplanes",
+    "name": "Awesome Planes",
     "path": "clawesomeplanes.html",
     "image": "clawesomeplanes.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Awesometanks",
+    "name": "Awesome Tanks",
     "path": "clawesometanks.html",
     "image": "clawesometanks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Awesometanks 2",
     "path": "clawesometanks2.html",
     "image": "clawesometanks2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "B 3313",
+    "name": "Super Mario 64",
     "path": "clB3313.html",
     "image": "clB3313.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Babeltower",
+    "name": "Babel Tower",
     "path": "clbabeltower.html",
     "image": "clbabeltower.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Babychiccoadventure",
+    "name": "Baby Chicco Adventure",
     "path": "clbabychiccoadventure.html",
     "image": "clbabychiccoadventure.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Babykaizo",
+    "name": "Baby Kaizo",
     "path": "clbabykaizo.html",
     "image": "clbabykaizo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Backrooms",
     "path": "clbackrooms.html",
     "image": "clbackrooms.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Backrooms 2 D",
+    "name": "Backrooms 2D",
     "path": "clbackrooms2D.html",
     "image": "clbackrooms2D.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Backyardbaseball",
+    "name": "Backyard Baseball",
     "path": "clbackyardbaseball.html",
     "image": "clbackyardbaseball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Backyardbaseball 09",
+    "name": "Backyard Baseball 09'",
     "path": "clbackyardbaseball09.html",
     "image": "clbackyardbaseball09.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Backyardbaseball 10",
+    "name": "Backyard Baseball 10'",
     "path": "clbackyardbaseball10.html",
     "image": "clbackyardbaseball10.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Backyardsoccer",
+    "name": "Backyard Soccer",
     "path": "clbackyardsoccer.html",
     "image": "clbackyardsoccer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Baconmaydie",
+    "name": "Bacon may Die",
     "path": "clbaconmaydie.html",
     "image": "clbaconmaydie.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Badicecream",
+    "name": "Bad Ice Cream",
     "path": "clbadicecream.html",
     "image": "clbadicecream.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Badparenting",
+    "name": "Bad Parenting",
     "path": "clbadparenting.html",
     "image": "clbadparenting.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Badpiggies",
+    "name": "Bad Piggies",
     "path": "clbadpiggies.html",
     "image": "clbadpiggies.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Badtimesim",
+    "name": "Bad Time Sim",
     "path": "clbadtimesim.html",
     "image": "clbadtimesim.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Badtimesimulator",
+    "name": "Bad time simulator",
     "path": "clbadtimesimulator.html",
     "image": "clbadtimesimulator.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Baldidecomp",
+    "name": "Baldi's Decomp",
     "path": "clbaldidecomp.html",
     "image": "clbaldidecomp.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Baldisbasics",
+    "name": "Baldi's Basics",
     "path": "clbaldisbasics.html",
     "image": "clbaldisbasics.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Baldisbasicsremaster",
+    "name": "Baldi's basics remaster",
     "path": "clbaldisbasicsremaster.html",
     "image": "clbaldisbasicsremaster.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Baldisfunnewschoolultimate",
+    "name": "Baldi's fun newschool ultimate",
     "path": "clbaldisfunnewschoolultimate.html",
     "image": "clbaldisfunnewschoolultimate.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Ballblast",
+    "name": "Ball Blast",
     "path": "clballblast.html",
     "image": "clballblast.png",
     "tier": "not_checked",
     "popularity": 0
   },
   {
-    "name": "Ballsandbricks",
+    "name": "Balls and Bricks",
     "path": "clballsandbricks.html",
     "image": "clballsandbricks.png",
-    "tier": "not_checked",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Ballsandbricksgood",
+    "name": "Balls and Bricks ",
     "path": "clballsandbricksgood.html",
     "image": "clballsandbricksgood.png",
     "tier": "not_checked",
@@ -2107,10 +2107,10 @@
     "popularity": 0
   },
   {
-    "name": "Danktomb",
+    "name": "Dank tomb",
     "path": "cldanktomb.html",
     "image": "cldanktomb.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2821,10 +2821,10 @@
     "popularity": 0
   },
   {
-    "name": "Electricman 2",
+    "name": "ElectricMan 2",
     "path": "clelectricman2.html",
     "image": "clelectricman2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
