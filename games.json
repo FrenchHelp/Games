@@ -11361,10 +11361,10 @@
     "popularity": 0
   },
   {
-    "name": "Polytrackbutnotflagged",
+    "name": "Poly Track",
     "path": "polytrackbutnotflagged.html",
-    "image": "polytrackbutnotflagged.png",
-    "tier": "not_checked",
+    "image": "polytrack.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
