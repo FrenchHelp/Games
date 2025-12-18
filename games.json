@@ -213,7 +213,7 @@
     "name": "A dark Room",
     "path": "clADarkRoom.html",
     "image": "clADarkRoom.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -283,7 +283,7 @@
     "name": "AI bot",
     "path": "clai.html",
     "image": "clai.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -346,7 +346,7 @@
     "name": "Amaze",
     "path": "clamaze.html",
     "image": "clamaze.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -423,7 +423,7 @@
     "name": "Angry Birdsspace",
     "path": "clangry-birdsspace.html",
     "image": "clangry-birdsspace.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -528,28 +528,28 @@
     "name": "Attackhole",
     "path": "clattackhole.html",
     "image": "clattackhole.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Avalanche",
     "path": "clavalanche.html",
     "image": "clavalanche.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Aviamasters",
     "path": "claviamasters.html",
     "image": "claviamasters.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Aviamastersbuggy",
     "path": "claviamastersbuggy.html",
     "image": "claviamastersbuggy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -717,7 +717,7 @@
     "name": "Baldi's fun newschool ultimate",
     "path": "clbaldisfunnewschoolultimate.html",
     "image": "clbaldisfunnewschoolultimate.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -738,21 +738,21 @@
     "name": "Balls and Bricks ",
     "path": "clballsandbricksgood.html",
     "image": "clballsandbricksgood.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bananasimulator",
     "path": "clbananasimulator.html",
     "image": "clbananasimulator.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Banditgunslingers",
     "path": "clbanditgunslingers.html",
     "image": "clbanditgunslingers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -773,7 +773,7 @@
     "name": "Bankbreakout 2",
     "path": "clbankbreakout2.html",
     "image": "clbankbreakout2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -801,14 +801,14 @@
     "name": "Baseballbros",
     "path": "clbaseballbros.html",
     "image": "clbaseballbros.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Basketballfrvr",
     "path": "clbasketballfrvr.html",
     "image": "clbasketballfrvr.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -829,28 +829,28 @@
     "name": "Basketbattle",
     "path": "clbasketbattle.html",
     "image": "clbasketbattle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Basketbros",
     "path": "clbasketbros.html",
     "image": "clbasketbros.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Basketrandom",
     "path": "clbasketrandom.html",
     "image": "clbasketrandom.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Basketrandomgood",
     "path": "clbasketrandomgood.html",
     "image": "clbasketrandomgood.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -864,7 +864,7 @@
     "name": "Battlekarts",
     "path": "clbattlekarts.html",
     "image": "clbattlekarts.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -878,7 +878,7 @@
     "name": "Battlesim",
     "path": "clbattlesim.html",
     "image": "clbattlesim.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -892,21 +892,21 @@
     "name": "Bazookaboy",
     "path": "clbazookaboy.html",
     "image": "clbazookaboy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bballlegend",
     "path": "clbballlegend.html",
     "image": "clbballlegend.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Beachboxingsim",
     "path": "clbeachboxingsim.html",
     "image": "clbeachboxingsim.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -920,7 +920,7 @@
     "name": "Bearbarians",
     "path": "clbearbarians.html",
     "image": "clbearbarians.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -941,7 +941,7 @@
     "name": "Ben 10 Omniverse",
     "path": "clben10omniverse.html",
     "image": "clben10omniverse.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -962,14 +962,14 @@
     "name": "Ben 10 Ultimatealien",
     "path": "clben10ultimatealien.html",
     "image": "clben10ultimatealien.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bergentruck 201 X",
     "path": "clbergentruck201x.html",
     "image": "clbergentruck201x.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -983,21 +983,21 @@
     "name": "Bigicetowertinysquare",
     "path": "clbigicetowertinysquare.html",
     "image": "clbigicetowertinysquare.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bigneontowertinysquare",
     "path": "clbigneontowertinysquare.html",
     "image": "clbigneontowertinysquare.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bigshotboxing 2",
     "path": "clbigshotboxing2.html",
     "image": "clbigshotboxing2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1032,7 +1032,7 @@
     "name": "Bindingofisaccsheeptime",
     "path": "clbindingofisaccsheeptime.html",
     "image": "clbindingofisaccsheeptime.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1053,42 +1053,42 @@
     "name": "Bitplanes",
     "path": "clbitplanes.html",
     "image": "clbitplanes.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Blackjack",
     "path": "clblackjack.html",
     "image": "clblackjack.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Blackjackbattle",
     "path": "clblackjackbattle.html",
     "image": "clblackjackbattle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Blacksmithlab",
     "path": "clblacksmithlab.html",
     "image": "clblacksmithlab.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Blazedrifter",
     "path": "clblazedrifter.html",
     "image": "clblazedrifter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bleachvsnaruto",
     "path": "clbleachvsnaruto.html",
     "image": "clbleachvsnaruto.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1102,7 +1102,7 @@
     "name": "Blobsstory 2",
     "path": "clblobsstory2.html",
     "image": "clblobsstory2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1130,14 +1130,14 @@
     "name": "Blockpost",
     "path": "clblockpost.html",
     "image": "clblockpost.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Blockthepig",
     "path": "clblockthepig.html",
     "image": "clblockthepig.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1151,7 +1151,7 @@
     "name": "Blockysnakes",
     "path": "clblockysnakes.html",
     "image": "clblockysnakes.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1165,42 +1165,42 @@
     "name": "Bloodtournament",
     "path": "clbloodtournament.html",
     "image": "clbloodtournament.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bloons Td 1",
     "path": "clbloonsTD1.html",
     "image": "clbloonsTD1.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bloons Td 2",
     "path": "clbloonsTD2.html",
     "image": "clbloonsTD2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bloons Td 3",
     "path": "clbloonsTD3.html",
     "image": "clbloonsTD3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bloons Td 4",
     "path": "clbloonsTD4.html",
     "image": "clbloonsTD4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bloons Td 5",
     "path": "clbloonsTD5.html",
     "image": "clbloonsTD5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1214,7 +1214,7 @@
     "name": "Bloxorz",
     "path": "clbloxorz.html",
     "image": "clbloxorz.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1235,35 +1235,35 @@
     "name": "Bntts",
     "path": "clbntts.html",
     "image": "clbntts.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bobtherobber",
     "path": "clbobtherobber.html",
     "image": "clbobtherobber.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bobtherobber 2",
     "path": "clbobtherobber2.html",
     "image": "clbobtherobber2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bobtherobber 5",
     "path": "clbobtherobber5.html",
     "image": "clbobtherobber5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bollybeat",
     "path": "clbollybeat.html",
     "image": "clbollybeat.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1284,7 +1284,7 @@
     "name": "Boomslingers",
     "path": "clboomslingers.html",
     "image": "clboomslingers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1298,7 +1298,7 @@
     "name": "Bounceback",
     "path": "clbounceback.html",
     "image": "clbounceback.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1312,7 +1312,7 @@
     "name": "Bouncymotors",
     "path": "clbouncymotors.html",
     "image": "clbouncymotors.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1333,14 +1333,14 @@
     "name": "Boxinglive 2",
     "path": "clboxinglive-2.html",
     "image": "clboxinglive-2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Boxingrandom",
     "path": "clboxingrandom.html",
     "image": "clboxingrandom.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1354,7 +1354,7 @@
     "name": "Bridgerace",
     "path": "clbridgerace.html",
     "image": "clbridgerace.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1368,7 +1368,7 @@
     "name": "Btd 5",
     "path": "clbtd5.html",
     "image": "clbtd5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1382,56 +1382,56 @@
     "name": "Btts 2",
     "path": "clbtts2.html",
     "image": "clbtts2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bubbleshooter",
     "path": "clbubbleshooter.html",
     "image": "clbubbleshooter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bubbleshooterpirate",
     "path": "clbubbleshooterpirate.html",
     "image": "clbubbleshooterpirate.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bubbletanks",
     "path": "clbubbletanks.html",
     "image": "clbubbletanks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bubbletanks 2",
     "path": "clbubbletanks2.html",
     "image": "clbubbletanks2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bubbletanks 3",
     "path": "clbubbletanks3.html",
     "image": "clbubbletanks3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bubbletanksarenas",
     "path": "clbubbletanksarenas.html",
     "image": "clbubbletanksarenas.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bubbletankstd",
     "path": "clbubbletankstd.html",
     "image": "clbubbletankstd.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1452,28 +1452,28 @@
     "name": "Buildnowgg",
     "path": "clbuildnowgg.html",
     "image": "clbuildnowgg.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Bunnyland",
     "path": "clbunnyland.html",
     "image": "clbunnyland.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Burgerandfrights",
     "path": "clburgerandfrights.html",
     "image": "clburgerandfrights.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Burritobison",
     "path": "clburritobison.html",
     "image": "clburritobison.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1494,28 +1494,28 @@
     "name": "Burritobisonrevenge",
     "path": "clburritobisonrevenge.html",
     "image": "clburritobisonrevenge.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Cactusmccoy",
     "path": "clcactusmccoy.html",
     "image": "clcactusmccoy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Cactusmccoy 2",
     "path": "clcactusmccoy2.html",
     "image": "clcactusmccoy2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Cannonballs 3 D",
     "path": "clcannonballs3d.html",
     "image": "clcannonballs3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1529,7 +1529,7 @@
     "name": "Capybaraclicker",
     "path": "clcapybaraclicker.html",
     "image": "clcapybaraclicker.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1543,14 +1543,14 @@
     "name": "Cardrawing",
     "path": "clcardrawing.html",
     "image": "clcardrawing.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Careatscar 2 Deluxe",
     "path": "clcareatscar2deluxe.html",
     "image": "clcareatscar2deluxe.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1564,7 +1564,7 @@
     "name": "Carmods",
     "path": "clcarmods.html",
     "image": "clcarmods.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1578,7 +1578,7 @@
     "name": "Cartoon Network Table Tennis Ultimate Tournament",
     "path": "clCartoonNetworkTableTennisUltimateTournament.html",
     "image": "clCartoonNetworkTableTennisUltimateTournament.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1634,28 +1634,28 @@
     "name": "Castlewarsmodern",
     "path": "clcastlewarsmodern.html",
     "image": "clcastlewarsmodern.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Catmario",
     "path": "clcatmario.html",
     "image": "clcatmario.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Catmariogood",
     "path": "clcatmariogood.html",
     "image": "clcatmariogood.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Catslovecake 2",
     "path": "clcatslovecake2.html",
     "image": "clcatslovecake2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1676,21 +1676,21 @@
     "name": "Cellardoor",
     "path": "clcellardoor.html",
     "image": "clcellardoor.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Checkers",
     "path": "clcheckers.html",
     "image": "clcheckers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Cheesechompers 3 D",
     "path": "clcheesechompers3d.html",
     "image": "clcheesechompers3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1711,14 +1711,14 @@
     "name": "Chessclassic",
     "path": "clchessclassic.html",
     "image": "clchessclassic.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Chibiknight",
     "path": "clchibiknight.html",
     "image": "clchibiknight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1739,7 +1739,7 @@
     "name": "Choppyorc",
     "path": "clchoppyorc.html",
     "image": "clchoppyorc.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1753,28 +1753,28 @@
     "name": "Circlo O 2",
     "path": "clCircloO2.html",
     "image": "clCircloO2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Civiballs",
     "path": "clciviballs.html",
     "image": "clciviballs.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Civiballs 2",
     "path": "clciviballs2.html",
     "image": "clciviballs2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Clashofvikings",
     "path": "clclashofvikings.html",
     "image": "clclashofvikings.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1795,77 +1795,77 @@
     "name": "Clearvision",
     "path": "clclearvision.html",
     "image": "clclearvision.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Clearvision 2",
     "path": "clclearvision2.html",
     "image": "clclearvision2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Clearvision 3",
     "path": "clclearvision3.html",
     "image": "clclearvision3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Clearvision 4",
     "path": "clclearvision4.html",
     "image": "clclearvision4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Clearvision 5",
     "path": "clclearvision5.html",
     "image": "clclearvision5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Clusterrush",
     "path": "clclusterrush.html",
     "image": "clclusterrush.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Cod 4",
     "path": "clcod4.html",
     "image": "clcod4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Codblackopp",
     "path": "clcodblackopp.html",
     "image": "clcodblackopp.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Coddefiance",
     "path": "clcoddefiance.html",
     "image": "clcoddefiance.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Codmodernwarfare",
     "path": "clcodmodernwarfare.html",
     "image": "clcodmodernwarfare.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Codworldatwar",
     "path": "clcodworldatwar.html",
     "image": "clcodworldatwar.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1879,14 +1879,14 @@
     "name": "Colorburst 3 D",
     "path": "clcolorburst3d.html",
     "image": "clcolorburst3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Colormatch",
     "path": "clcolormatch.html",
     "image": "clcolormatch.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1907,7 +1907,7 @@
     "name": "Conkersbadfurday",
     "path": "clconkersbadfurday.html",
     "image": "clconkersbadfurday.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1921,7 +1921,7 @@
     "name": "Cookieclicker",
     "path": "clcookieclicker.html",
     "image": "clcookieclicker.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1956,14 +1956,14 @@
     "name": "Cookingmama 3",
     "path": "clcookingmama3.html",
     "image": "clcookingmama3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Coreball",
     "path": "clcoreball.html",
     "image": "clcoreball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -1998,7 +1998,7 @@
     "name": "Crazycars",
     "path": "clcrazycars.html",
     "image": "clcrazycars.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2012,21 +2012,21 @@
     "name": "Crazychicken 3 D",
     "path": "clcrazychicken3D.html",
     "image": "clcrazychicken3D.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Crazymotorcycle",
     "path": "clcrazymotorcycle.html",
     "image": "clcrazymotorcycle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Creeperworld 2",
     "path": "clcreeperworld2.html",
     "image": "clcreeperworld2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2040,7 +2040,7 @@
     "name": "Crunchball 3000",
     "path": "clcrunchball3000.html",
     "image": "clcrunchball3000.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2054,28 +2054,28 @@
     "name": "Csgoclicker",
     "path": "clcsgoclicker.html",
     "image": "clcsgoclicker.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ctgpnitro",
     "path": "clctgpnitro.html",
     "image": "clctgpnitro.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Curveball",
     "path": "clcurveball.html",
     "image": "clcurveball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Cuttherope",
     "path": "clcuttherope.html",
     "image": "clcuttherope.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2117,28 +2117,28 @@
     "name": "Dborigins",
     "path": "cldborigins.html",
     "image": "cldborigins.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dborigins 2",
     "path": "cldborigins2.html",
     "image": "cldborigins2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dbzattacksaiyans",
     "path": "cldbzattacksaiyans.html",
     "image": "cldbzattacksaiyans.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dbzdevolution",
     "path": "cldbzdevolution.html",
     "image": "cldbzdevolution.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2173,7 +2173,7 @@
     "name": "Deadzed 2",
     "path": "cldeadzed2.html",
     "image": "cldeadzed2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2187,91 +2187,91 @@
     "name": "Deblob 2",
     "path": "cldeblob2.html",
     "image": "cldeblob2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Deepersleep",
     "path": "cldeepersleep.html",
     "image": "cldeepersleep.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Deepestsword",
     "path": "cldeepestsword.html",
     "image": "cldeepestsword.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Deepsleep",
     "path": "cldeepsleep.html",
     "image": "cldeepsleep.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Defendyourcastle",
     "path": "cldefendyourcastle.html",
     "image": "cldefendyourcastle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Defendyournuts",
     "path": "cldefendyournuts.html",
     "image": "cldefendyournuts.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Defendyournuts 2",
     "path": "cldefendyournuts2.html",
     "image": "cldefendyournuts2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Deltarune",
     "path": "cldeltarune.html",
     "image": "cldeltarune.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Deltatraveler",
     "path": "cldeltatraveler.html",
     "image": "cldeltatraveler.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dementium",
     "path": "cldementium.html",
     "image": "cldementium.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Demolitionderbycrashracing",
     "path": "cldemolitionderbycrashracing.html",
     "image": "cldemolitionderbycrashracing.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Diamondhollow",
     "path": "cldiamondhollow.html",
     "image": "cldiamondhollow.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Diamondhollow 2",
     "path": "cldiamondhollow2.html",
     "image": "cldiamondhollow2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2320,7 +2320,7 @@
     "name": "Digtochina",
     "path": "cldigtochina.html",
     "image": "cldigtochina.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2334,28 +2334,28 @@
     "name": "Doblox",
     "path": "cldoblox.html",
     "image": "cldoblox.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dogeminer",
     "path": "cldogeminer.html",
     "image": "cldogeminer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dogeminer 2",
     "path": "cldogeminer2.html",
     "image": "cldogeminer2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dokidokiliteratureclub",
     "path": "cldokidokiliteratureclub.html",
     "image": "cldokidokiliteratureclub.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2369,7 +2369,7 @@
     "name": "Donkeykong 64",
     "path": "cldonkeykong64.html",
     "image": "cldonkeykong64.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2404,35 +2404,35 @@
     "name": "Dontescape",
     "path": "cldontescape.html",
     "image": "cldontescape.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dontescape 2",
     "path": "cldontescape2.html",
     "image": "cldontescape2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dontescape 3",
     "path": "cldontescape3.html",
     "image": "cldontescape3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Doodlejump",
     "path": "cldoodlejump.html",
     "image": "cldoodlejump.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Doodlejumpgoober",
     "path": "cldoodlejumpgoober.html",
     "image": "cldoodlejumpgoober.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2474,21 +2474,21 @@
     "name": "Doompsalt",
     "path": "cldoompsalt.html",
     "image": "cldoompsalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Doomzio",
     "path": "cldoomzio.html",
     "image": "cldoomzio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Douchebaglife",
     "path": "cldouchebaglife.html",
     "image": "cldouchebaglife.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2516,28 +2516,28 @@
     "name": "Dragon Quest Ix",
     "path": "clDragonQuestIX.html",
     "image": "clDragonQuestIX.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Drawclimber",
     "path": "cldrawclimber.html",
     "image": "cldrawclimber.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Drawtheline",
     "path": "cldrawtheline.html",
     "image": "cldrawtheline.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Dreader",
     "path": "cldreader.html",
     "image": "cldreader.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2551,14 +2551,14 @@
     "name": "Driftboss",
     "path": "cldriftboss.html",
     "image": "cldriftboss.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Drifthuntersmerge",
     "path": "cldrifthuntersmerge.html",
     "image": "cldrifthuntersmerge.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2572,7 +2572,7 @@
     "name": "Drivenwild",
     "path": "cldrivenwild.html",
     "image": "cldrivenwild.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2600,35 +2600,35 @@
     "name": "Ducklfe 5",
     "path": "clducklfe5.html",
     "image": "clducklfe5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ducklife",
     "path": "clducklife.html",
     "image": "clducklife.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ducklife 2",
     "path": "clducklife2.html",
     "image": "clducklife2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ducklife 3",
     "path": "clducklife3.html",
     "image": "clducklife3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ducklife 4",
     "path": "clducklife4.html",
     "image": "clducklife4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2649,7 +2649,7 @@
     "name": "Ducklingsio",
     "path": "clducklingsio.html",
     "image": "clducklingsio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2670,7 +2670,7 @@
     "name": "Dunkshot",
     "path": "cldunkshot.html",
     "image": "cldunkshot.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2684,7 +2684,7 @@
     "name": "Dyingdreams",
     "path": "cldyingdreams.html",
     "image": "cldyingdreams.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2698,21 +2698,21 @@
     "name": "Eagleride",
     "path": "cleagleride.html",
     "image": "cleagleride.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Earntodie",
     "path": "clearntodie.html",
     "image": "clearntodie.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Earntodie 2",
     "path": "clearntodie2.html",
     "image": "clearntodie2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2740,21 +2740,21 @@
     "name": "Earthtaken",
     "path": "clearthtaken.html",
     "image": "clearthtaken.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Earthtaken 2",
     "path": "clearthtaken2.html",
     "image": "clearthtaken2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Earthtaken 3",
     "path": "clearthtaken3.html",
     "image": "clearthtaken3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2782,42 +2782,42 @@
     "name": "Effinghail",
     "path": "cleffinghail.html",
     "image": "cleffinghail.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Effingmachines",
     "path": "cleffingmachines.html",
     "image": "cleffingmachines.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Effingworms",
     "path": "cleffingworms.html",
     "image": "cleffingworms.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Effingzombies",
     "path": "cleffingzombies.html",
     "image": "cleffingzombies.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Eggycar",
     "path": "cleggycar.html",
     "image": "cleggycar.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Elasticface",
     "path": "clelasticface.html",
     "image": "clelasticface.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2831,14 +2831,14 @@
     "name": "Emujs",
     "path": "clemujs.html",
     "image": "clemujs.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Endlesswar 4",
     "path": "clendlesswar4.html",
     "image": "clendlesswar4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2852,14 +2852,14 @@
     "name": "Endlesswar 5 Wow",
     "path": "clendlesswar5wow.html",
     "image": "clendlesswar5wow.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Endlesswar 7",
     "path": "clendlesswar7.html",
     "image": "clendlesswar7.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2873,14 +2873,14 @@
     "name": "Escaperoad 2",
     "path": "clescaperoad-2.html",
     "image": "clescaperoad-2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Escaperoad",
     "path": "clescaperoad.html",
     "image": "clescaperoad.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2901,7 +2901,7 @@
     "name": "Evilglitch",
     "path": "clevilglitch.html",
     "image": "clevilglitch.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2915,42 +2915,42 @@
     "name": "Extremerun 3 D",
     "path": "clextremerun3d.html",
     "image": "clextremerun3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Factoryballs",
     "path": "clfactoryballs.html",
     "image": "clfactoryballs.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Factoryballs 2",
     "path": "clfactoryballs2.html",
     "image": "clfactoryballs2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Factoryballs 3",
     "path": "clfactoryballs3.html",
     "image": "clfactoryballs3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Factoryballs 4",
     "path": "clfactoryballs4.html",
     "image": "clfactoryballs4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fairytalevsonepiece",
     "path": "clfairytalevsonepiece.html",
     "image": "clfairytalevsonepiece.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2971,21 +2971,21 @@
     "name": "Fancypantsadventure",
     "path": "clfancypantsadventure.html",
     "image": "clfancypantsadventure.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fancypantsadventure 2",
     "path": "clfancypantsadventure2.html",
     "image": "clfancypantsadventure2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fancypantsadventure 3",
     "path": "clfancypantsadventure3.html",
     "image": "clfancypantsadventure3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -2999,7 +2999,7 @@
     "name": "Fattygenius",
     "path": "clfattygenius.html",
     "image": "clfattygenius.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3013,42 +3013,42 @@
     "name": "Feedus",
     "path": "clfeedus.html",
     "image": "clfeedus.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Feedus 2",
     "path": "clfeedus2.html",
     "image": "clfeedus2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Feedus 3",
     "path": "clfeedus3.html",
     "image": "clfeedus3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Feedus 4",
     "path": "clfeedus4.html",
     "image": "clfeedus4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Feedus 5",
     "path": "clfeedus5.html",
     "image": "clfeedus5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ff 3",
     "path": "clFF3.html",
     "image": "clFF3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3125,14 +3125,14 @@
     "name": "Fifa 10",
     "path": "clFIFA10.html",
     "image": "clFIFA10.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fifa 11",
     "path": "clFIFA11.html",
     "image": "clFIFA11.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3202,14 +3202,14 @@
     "name": "Fifastreet 2",
     "path": "clFIFAstreet2.html",
     "image": "clFIFAstreet2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Finalearth 2",
     "path": "clfinalearth2.html",
     "image": "clfinalearth2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3230,7 +3230,7 @@
     "name": "Finalfantasytactics",
     "path": "clfinalfantasytactics.html",
     "image": "clfinalfantasytactics.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3265,42 +3265,42 @@
     "name": "Finalfantasy Viitheothertetrr",
     "path": "clfinalfantasyVIItheothertetrr.html",
     "image": "clfinalfantasyVIItheothertetrr.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Finalninja",
     "path": "clfinalninja.html",
     "image": "clfinalninja.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fireblob",
     "path": "clfireblob.html",
     "image": "clfireblob.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fireboyandwatergirl",
     "path": "clfireboyandwatergirl.html",
     "image": "clfireboyandwatergirl.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fireboyandwatergirl 2",
     "path": "clfireboyandwatergirl2.html",
     "image": "clfireboyandwatergirl2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fireboyandwatergirl 3",
     "path": "clfireboyandwatergirl3.html",
     "image": "clfireboyandwatergirl3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3356,28 +3356,28 @@
     "name": "Floodrunner",
     "path": "clfloodrunner.html",
     "image": "clfloodrunner.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Floodrunner 2",
     "path": "clfloodrunner2.html",
     "image": "clfloodrunner2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Floodrunner 4",
     "path": "clfloodrunner4.html",
     "image": "clfloodrunner4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fluidism",
     "path": "clfluidism.html",
     "image": "clfluidism.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3475,49 +3475,49 @@
     "name": "Fnfbfdi 26",
     "path": "clfnfbfdi26.html",
     "image": "clfnfbfdi26.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfblackbetrayal",
     "path": "clfnfblackbetrayal.html",
     "image": "clfnfblackbetrayal.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfbside",
     "path": "clfnfbside.html",
     "image": "clfnfbside.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfcamelliarudeblaster",
     "path": "clfnfcamelliarudeblaster.html",
     "image": "clfnfcamelliarudeblaster.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfdesolation",
     "path": "clfnfdesolation.html",
     "image": "clfnfdesolation.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfdokitakeoverplus",
     "path": "clfnfdokitakeoverplus.html",
     "image": "clfnfdokitakeoverplus.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfdropandroll",
     "path": "clfnfdropandroll.html",
     "image": "clfnfdropandroll.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3531,28 +3531,28 @@
     "name": "Fnffnaf 3",
     "path": "clfnffnaf3.html",
     "image": "clfnffnaf3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfgamebreakerbundle",
     "path": "clfnfgamebreakerbundle.html",
     "image": "clfnfgamebreakerbundle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfhex",
     "path": "clfnfhex.html",
     "image": "clfnfhex.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfholiday",
     "path": "clfnfholiday.html",
     "image": "clfnfholiday.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3566,84 +3566,84 @@
     "name": "Fnfhypnoslullaby",
     "path": "clfnfhypnoslullaby.html",
     "image": "clfnfhypnoslullaby.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfimposterv 4",
     "path": "clfnfimposterv4.html",
     "image": "clfnfimposterv4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfindiecross",
     "path": "clfnfindiecross.html",
     "image": "clfnfindiecross.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfmidfight",
     "path": "clfnfmidfight.html",
     "image": "clfnfmidfight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfmiku",
     "path": "clfnfmiku.html",
     "image": "clfnfmiku.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfmobmod",
     "path": "clfnfmobmod.html",
     "image": "clfnfmobmod.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfneo",
     "path": "clfnfneo.html",
     "image": "clfnfneo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfpokepastaperdition",
     "path": "clfnfpokepastaperdition.html",
     "image": "clfnfpokepastaperdition.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfqt",
     "path": "clfnfqt.html",
     "image": "clfnfqt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfrevmixed",
     "path": "clfnfrevmixed.html",
     "image": "clfnfrevmixed.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfrewrite",
     "path": "clfnfrewrite.html",
     "image": "clfnfrewrite.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfselfpaced",
     "path": "clfnfselfpaced.html",
     "image": "clfnfselfpaced.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3664,35 +3664,35 @@
     "name": "Fnfsky",
     "path": "clfnfsky.html",
     "image": "clfnfsky.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfsoft",
     "path": "clfnfsoft.html",
     "image": "clfnfsoft.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfsonicexe",
     "path": "clfnfsonicexe.html",
     "image": "clfnfsonicexe.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfsonicexe 4",
     "path": "clfnfsonicexe4.html",
     "image": "clfnfsonicexe4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnftailsgetstrolled",
     "path": "clfnftailsgetstrolled.html",
     "image": "clfnftailsgetstrolled.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3706,21 +3706,21 @@
     "name": "Fnfwednesday Infedility",
     "path": "clfnfwednesday-infedility.html",
     "image": "clfnfwednesday-infedility.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfwhitty",
     "path": "clfnfwhitty.html",
     "image": "clfnfwhitty.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fnfzardy",
     "path": "clfnfzardy.html",
     "image": "clfnfzardy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3734,35 +3734,35 @@
     "name": "Footballlegends",
     "path": "clfootballlegends.html",
     "image": "clfootballlegends.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Forknsausage",
     "path": "clforknsausage.html",
     "image": "clforknsausage.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Fortzone",
     "path": "clfortzone.html",
     "image": "clfortzone.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Freerider",
     "path": "clfreerider.html",
     "image": "clfreerider.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Freerider 2",
     "path": "clfreerider2.html",
     "image": "clfreerider2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3776,7 +3776,7 @@
     "name": "Fridaynightfunkin",
     "path": "clfridaynightfunkin.html",
     "image": "clfridaynightfunkin.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3790,28 +3790,28 @@
     "name": "Funnybattle",
     "path": "clfunnybattle.html",
     "image": "clfunnybattle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Funnybattle 2",
     "path": "clfunnybattle2.html",
     "image": "clfunnybattle2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Funnymadracing",
     "path": "clfunnymadracing.html",
     "image": "clfunnymadracing.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Funnyshooter 22",
     "path": "clfunnyshooter22.html",
     "image": "clfunnyshooter22.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3846,14 +3846,14 @@
     "name": "Garcello",
     "path": "clgarcello.html",
     "image": "clgarcello.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gdlite",
     "path": "clgdlite.html",
     "image": "clgdlite.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3881,7 +3881,7 @@
     "name": "Georgeandtheprinter",
     "path": "clgeorgeandtheprinter.html",
     "image": "clgeorgeandtheprinter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3902,7 +3902,7 @@
     "name": "Gettothetopalthoughthereisnotop",
     "path": "clGettothetopalthoughthereisnotop.html",
     "image": "clGettothetopalthoughthereisnotop.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3916,21 +3916,21 @@
     "name": "Ghosttrick",
     "path": "clghosttrick.html",
     "image": "clghosttrick.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gimmietheairpod",
     "path": "clgimmietheairpod.html",
     "image": "clgimmietheairpod.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gladdihoppers",
     "path": "clgladdihoppers.html",
     "image": "clgladdihoppers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3944,28 +3944,28 @@
     "name": "Goalsouthafrica",
     "path": "clgoalsouthafrica.html",
     "image": "clgoalsouthafrica.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gobble",
     "path": "clgobble.html",
     "image": "clgobble.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Goingballs",
     "path": "clgoingballs.html",
     "image": "clgoingballs.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Golddiggerfrvr",
     "path": "clgolddiggerfrvr.html",
     "image": "clgolddiggerfrvr.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -3986,7 +3986,7 @@
     "name": "Goldensunnds",
     "path": "clgoldensunnds.html",
     "image": "clgoldensunnds.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4035,14 +4035,14 @@
     "name": "Googlebaseball",
     "path": "clgooglebaseball.html",
     "image": "clgooglebaseball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Googledino",
     "path": "clgoogledino.html",
     "image": "clgoogledino.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4098,42 +4098,42 @@
     "name": "Granny 3",
     "path": "clgranny3.html",
     "image": "clgranny3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Granturismo",
     "path": "clgranturismo.html",
     "image": "clgranturismo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Granturismo 2",
     "path": "clgranturismo2.html",
     "image": "clgranturismo2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Grassmowing",
     "path": "clgrassmowing.html",
     "image": "clgrassmowing.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gravity",
     "path": "clgravity.html",
     "image": "clgravity.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gravitymod",
     "path": "clgravitymod.html",
     "image": "clgravitymod.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4147,7 +4147,7 @@
     "name": "Grindcraft",
     "path": "clgrindcraft.html",
     "image": "clgrindcraft.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4168,14 +4168,14 @@
     "name": "Growdenio",
     "path": "clgrowdenio.html",
     "image": "clgrowdenio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Growyourgarden",
     "path": "clgrowyourgarden.html",
     "image": "clgrowyourgarden.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4203,56 +4203,56 @@
     "name": "Gta 2 Alt",
     "path": "clgta2alt.html",
     "image": "clgta2alt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gtaalty",
     "path": "clgtaalty.html",
     "image": "clgtaalty.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gtachina",
     "path": "clgtachina.html",
     "image": "clgtachina.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Guesstheiranswer",
     "path": "clguesstheiranswer.html",
     "image": "clguesstheiranswer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gun Spin",
     "path": "clgun-spin.html",
     "image": "clgun-spin.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gunblood",
     "path": "clgunblood.html",
     "image": "clgunblood.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gunknight",
     "path": "clgunknight.html",
     "image": "clgunknight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Gunmayhem",
     "path": "clgunmayhem.html",
     "image": "clgunmayhem.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4266,7 +4266,7 @@
     "name": "Gunmayhem 2 Goof",
     "path": "clgunmayhem2goof.html",
     "image": "clgunmayhem2goof.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4294,7 +4294,7 @@
     "name": "Gymstack",
     "path": "clgymstack.html",
     "image": "clgymstack.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4308,21 +4308,21 @@
     "name": "Halflife",
     "path": "clhalflife.html",
     "image": "clhalflife.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Handulum",
     "path": "clhandulum.html",
     "image": "clhandulum.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hanger 2",
     "path": "clhanger2.html",
     "image": "clhanger2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4336,7 +4336,7 @@
     "name": "Happywheels",
     "path": "clhappywheels.html",
     "image": "clhappywheels.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4378,21 +4378,21 @@
     "name": "Hauntthehouse",
     "path": "clhauntthehouse.html",
     "image": "clhauntthehouse.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Heartandsoul",
     "path": "clheartandsoul.html",
     "image": "clheartandsoul.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Helixjump",
     "path": "clhelixjump.html",
     "image": "clhelixjump.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4406,7 +4406,7 @@
     "name": "Hextris",
     "path": "clhextris.html",
     "image": "clhextris.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4427,7 +4427,7 @@
     "name": "Highwaytraffic 3 D",
     "path": "clhighwaytraffic3d.html",
     "image": "clhighwaytraffic3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4441,70 +4441,70 @@
     "name": "Hipsterkickball",
     "path": "clhipsterkickball.html",
     "image": "clhipsterkickball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hitsinglereal",
     "path": "clhitsinglereal.html",
     "image": "clhitsinglereal.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobo",
     "path": "clhobo.html",
     "image": "clhobo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobo 2",
     "path": "clhobo2.html",
     "image": "clhobo2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobo 3",
     "path": "clhobo3.html",
     "image": "clhobo3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobo 4",
     "path": "clhobo4.html",
     "image": "clhobo4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobo 5",
     "path": "clhobo5.html",
     "image": "clhobo5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobo 6",
     "path": "clhobo6.html",
     "image": "clhobo6.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobo 7",
     "path": "clhobo7.html",
     "image": "clhobo7.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hobovszombies",
     "path": "clhobovszombies.html",
     "image": "clhobovszombies.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4518,28 +4518,28 @@
     "name": "Houseofhazards",
     "path": "clhouseofhazards.html",
     "image": "clhouseofhazards.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hoverracerdrive",
     "path": "clhoverracerdrive.html",
     "image": "clhoverracerdrive.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Humanexpenditureprogram",
     "path": "clhumanexpenditureprogram.html",
     "image": "clhumanexpenditureprogram.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Hungryknight",
     "path": "clhungryknight.html",
     "image": "clhungryknight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4560,14 +4560,14 @@
     "name": "Icantbelievegoogleflaggedmeforthenameofthefilelol",
     "path": "clicantbelievegoogleflaggedmeforthenameofthefilelol.html",
     "image": "clicantbelievegoogleflaggedmeforthenameofthefilelol.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Icedodo",
     "path": "clicedodo.html",
     "image": "clicedodo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4595,14 +4595,14 @@
     "name": "Idleidlegamedev",
     "path": "clidleidlegamedev.html",
     "image": "clidleidlegamedev.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Idleminertycoon",
     "path": "clidleminertycoon.html",
     "image": "clidleminertycoon.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4623,7 +4623,7 @@
     "name": "Impossiblequiz",
     "path": "climpossiblequiz.html",
     "image": "climpossiblequiz.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4637,21 +4637,21 @@
     "name": "Inclementemerald",
     "path": "clinclementemerald.html",
     "image": "clinclementemerald.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Indiantrucksimiulator",
     "path": "clindiantrucksimiulator.html",
     "image": "clindiantrucksimiulator.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Infinitecraft",
     "path": "clinfinitecraft.html",
     "image": "clinfinitecraft.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4672,7 +4672,7 @@
     "name": "Insidestory",
     "path": "clinsidestory.html",
     "image": "clinsidestory.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4693,28 +4693,28 @@
     "name": "Intospace",
     "path": "clintospace.html",
     "image": "clintospace.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Intospace 2",
     "path": "clintospace2.html",
     "image": "clintospace2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Intospace 3",
     "path": "clintospace3.html",
     "image": "clintospace3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Iqball",
     "path": "cliqball.html",
     "image": "cliqball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4742,7 +4742,7 @@
     "name": "Jacksmithencryptedorsmthn",
     "path": "cljacksmithencryptedorsmthn.html",
     "image": "cljacksmithencryptedorsmthn.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4756,7 +4756,7 @@
     "name": "Jellydadhero",
     "path": "cljellydadhero.html",
     "image": "cljellydadhero.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4777,7 +4777,7 @@
     "name": "Jellytruckgood",
     "path": "cljellytruckgood.html",
     "image": "cljellytruckgood.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4798,28 +4798,28 @@
     "name": "Jetrush",
     "path": "cljetrush.html",
     "image": "cljetrush.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Jetskiracing",
     "path": "cljetskiracing.html",
     "image": "cljetskiracing.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Johnnytrigger",
     "path": "cljohnnytrigger.html",
     "image": "cljohnnytrigger.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Johnnyupgrade",
     "path": "cljohnnyupgrade.html",
     "image": "cljohnnyupgrade.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4833,7 +4833,7 @@
     "name": "Jsvecx",
     "path": "cljsvecx.html",
     "image": "cljsvecx.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4847,14 +4847,14 @@
     "name": "Jumpingshell",
     "path": "cljumpingshell.html",
     "image": "cljumpingshell.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Justfalllol",
     "path": "cljustfalllol.html",
     "image": "cljustfalllol.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4889,7 +4889,7 @@
     "name": "Kapi",
     "path": "clkapi.html",
     "image": "clkapi.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4903,14 +4903,14 @@
     "name": "Karlson",
     "path": "clkarlson.html",
     "image": "clkarlson.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Kartbros",
     "path": "clkartbros.html",
     "image": "clkartbros.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4924,7 +4924,7 @@
     "name": "Kingdomheartsdays",
     "path": "clkingdomheartsdays.html",
     "image": "clkingdomheartsdays.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4938,7 +4938,7 @@
     "name": "Kingdomheartsrecodedalt",
     "path": "clkingdomheartsrecodedalt.html",
     "image": "clkingdomheartsrecodedalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -4994,56 +4994,56 @@
     "name": "Kirbysuperstarultra",
     "path": "clkirbysuperstarultra.html",
     "image": "clkirbysuperstarultra.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Kittencannon",
     "path": "clkittencannon.html",
     "image": "clkittencannon.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Knifehit",
     "path": "clknifehit.html",
     "image": "clknifehit.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Knightmaretower",
     "path": "clknightmaretower.html",
     "image": "clknightmaretower.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Konkrio",
     "path": "clkonkrio.html",
     "image": "clkonkrio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Koopasrevenge",
     "path": "clkoopasrevenge.html",
     "image": "clkoopasrevenge.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Kourio",
     "path": "clkourio.html",
     "image": "clkourio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Laceysflashgames",
     "path": "cllaceysflashgames.html",
     "image": "cllaceysflashgames.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5064,77 +5064,77 @@
     "name": "Leaderstrike",
     "path": "clleaderstrike.html",
     "image": "clleaderstrike.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Learntofly",
     "path": "cllearntofly.html",
     "image": "cllearntofly.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Learntofly 2",
     "path": "cllearntofly2.html",
     "image": "cllearntofly2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Learntofly 3",
     "path": "cllearntofly3.html",
     "image": "cllearntofly3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Learntoflyidle",
     "path": "cllearntoflyidle.html",
     "image": "cllearntoflyidle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Legobatman",
     "path": "cllegobatman.html",
     "image": "cllegobatman.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Legobatman 2 Superheroes",
     "path": "cllegobatman2superheroes.html",
     "image": "cllegobatman2superheroes.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Legoindianajones",
     "path": "cllegoindianajones.html",
     "image": "cllegoindianajones.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Legoindianajones 2",
     "path": "cllegoindianajones2.html",
     "image": "cllegoindianajones2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Legoninjago",
     "path": "cllegoninjago.html",
     "image": "cllegoninjago.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Legostarwars",
     "path": "cllegostarwars.html",
     "image": "cllegostarwars.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5148,7 +5148,7 @@
     "name": "Leveldevil",
     "path": "clleveldevil.html",
     "image": "clleveldevil.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5162,14 +5162,14 @@
     "name": "Lilrunmo",
     "path": "cllilrunmo.html",
     "image": "cllilrunmo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Linerider",
     "path": "cllinerider.html",
     "image": "cllinerider.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5183,7 +5183,7 @@
     "name": "Littlerunmo",
     "path": "cllittlerunmo.html",
     "image": "cllittlerunmo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5204,14 +5204,14 @@
     "name": "Lonewolf",
     "path": "cllonewolf.html",
     "image": "cllonewolf.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Losangelesshark",
     "path": "cllosangelesshark.html",
     "image": "cllosangelesshark.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5253,21 +5253,21 @@
     "name": "Lozspirittracks",
     "path": "cllozspirittracks.html",
     "image": "cllozspirittracks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Luckyblocks",
     "path": "clluckyblocks.html",
     "image": "clluckyblocks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Madalinstuntcars",
     "path": "clmadalinstuntcars.html",
     "image": "clmadalinstuntcars.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5281,7 +5281,7 @@
     "name": "Madalinstuntcarsmultiplayerfixed",
     "path": "clmadalinstuntcarsmultiplayerfixed.html",
     "image": "clmadalinstuntcarsmultiplayerfixed.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5372,35 +5372,35 @@
     "name": "Madnessaccelerant",
     "path": "clmadnessaccelerant.html",
     "image": "clmadnessaccelerant.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Madnesscombatdefense",
     "path": "clmadnesscombatdefense.html",
     "image": "clmadnesscombatdefense.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Madnesscombatnexus",
     "path": "clmadnesscombatnexus.html",
     "image": "clmadnesscombatnexus.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Madnesshydraulic",
     "path": "clmadnesshydraulic.html",
     "image": "clmadnesshydraulic.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Madnessretaliation",
     "path": "clmadnessretaliation.html",
     "image": "clmadnessretaliation.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5421,14 +5421,14 @@
     "name": "Magictiles 3",
     "path": "clmagictiles3.html",
     "image": "clmagictiles3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Majorasmask",
     "path": "clmajorasmask.html",
     "image": "clmajorasmask.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5442,7 +5442,7 @@
     "name": "Managod",
     "path": "clmanagod.html",
     "image": "clmanagod.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5498,7 +5498,7 @@
     "name": "Mariomadness",
     "path": "clmariomadness.html",
     "image": "clmariomadness.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5519,7 +5519,7 @@
     "name": "Marioparty 2",
     "path": "clmarioparty2.html",
     "image": "clmarioparty2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5561,21 +5561,21 @@
     "name": "Matrixrampage",
     "path": "clmatrixrampage.html",
     "image": "clmatrixrampage.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Mcraerally",
     "path": "clmcraerally.html",
     "image": "clmcraerally.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Medievalshark",
     "path": "clmedievalshark.html",
     "image": "clmedievalshark.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5638,14 +5638,14 @@
     "name": "Megaman 8",
     "path": "clmegaman8.html",
     "image": "clmegaman8.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Megamanlegends",
     "path": "clmegamanlegends.html",
     "image": "clmegamanlegends.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5673,7 +5673,7 @@
     "name": "Megamanx 4",
     "path": "clmegamanx4.html",
     "image": "clmegamanx4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5687,14 +5687,14 @@
     "name": "Megamanzx",
     "path": "clmegamanzx.html",
     "image": "clmegamanzx.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Megaminer",
     "path": "clmegaminer.html",
     "image": "clmegaminer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5708,14 +5708,14 @@
     "name": "Meowuwu",
     "path": "clmeowuwu.html",
     "image": "clmeowuwu.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Mergeroundracers",
     "path": "clmergeroundracers.html",
     "image": "clmergeroundracers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5736,7 +5736,7 @@
     "name": "Metalgearsolidps",
     "path": "clmetalgearsolidps.html",
     "image": "clmetalgearsolidps.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5799,21 +5799,21 @@
     "name": "Miamishark",
     "path": "clmiamishark.html",
     "image": "clmiamishark.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Mightyknight",
     "path": "clmightyknight.html",
     "image": "clmightyknight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Mightyknight 2",
     "path": "clmightyknight2.html",
     "image": "clmightyknight2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5834,14 +5834,14 @@
     "name": "Mineshooter",
     "path": "clmineshooter.html",
     "image": "clmineshooter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Minesweeperplus",
     "path": "clminesweeperplus.html",
     "image": "clminesweeperplus.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5855,7 +5855,7 @@
     "name": "Minicrossword",
     "path": "clminicrossword.html",
     "image": "clminicrossword.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5876,14 +5876,14 @@
     "name": "Minitooth",
     "path": "clminitooth.html",
     "image": "clminitooth.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Miraginewar",
     "path": "clmiraginewar.html",
     "image": "clmiraginewar.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5897,7 +5897,7 @@
     "name": "Mk 4 Ampedup",
     "path": "clmk4ampedup.html",
     "image": "clmk4ampedup.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5925,14 +5925,14 @@
     "name": "Moneyrush",
     "path": "clmoneyrush.html",
     "image": "clmoneyrush.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Monkeymart",
     "path": "clmonkeymart.html",
     "image": "clmonkeymart.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5946,14 +5946,14 @@
     "name": "Monstertracks",
     "path": "clmonstertracks.html",
     "image": "clmonstertracks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Monstertruckportstunt",
     "path": "clmonstertruckportstunt.html",
     "image": "clmonstertruckportstunt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -5988,35 +5988,35 @@
     "name": "Mortkom 4",
     "path": "clmortkom4.html",
     "image": "clmortkom4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Motherload",
     "path": "clmotherload.html",
     "image": "clmotherload.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Motoroadrash",
     "path": "clmotoroadrash.html",
     "image": "clmotoroadrash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Motox 3 M 2",
     "path": "clmotox3m2.html",
     "image": "clmotox3m2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Motox 3 M 3",
     "path": "clmotox3m3.html",
     "image": "clmotox3m3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6037,14 +6037,14 @@
     "name": "Motox 3 Mspookyland",
     "path": "clmotox3mspookyland.html",
     "image": "clmotox3mspookyland.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Motox 3 Mwinter",
     "path": "clmotox3mwinter.html",
     "image": "clmotox3mwinter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6058,7 +6058,7 @@
     "name": "Mrracer",
     "path": "clmrracer.html",
     "image": "clmrracer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6072,14 +6072,14 @@
     "name": "Multitask",
     "path": "clmultitask.html",
     "image": "clmultitask.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Mutilate A Doll",
     "path": "clmutilate-a-doll.html",
     "image": "clmutilate-a-doll.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6093,28 +6093,28 @@
     "name": "Myfriendpedro",
     "path": "clmyfriendpedro.html",
     "image": "clmyfriendpedro.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Myfriendpedroarena",
     "path": "clmyfriendpedroarena.html",
     "image": "clmyfriendpedroarena.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "N",
     "path": "cln.html",
     "image": "cln.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Naturalselection",
     "path": "clnaturalselection.html",
     "image": "clnaturalselection.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6142,7 +6142,7 @@
     "name": "Neonblaster",
     "path": "clneonblaster.html",
     "image": "clneonblaster.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6156,7 +6156,7 @@
     "name": "Neverendinglegacy",
     "path": "clneverendinglegacy.html",
     "image": "clneverendinglegacy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6184,7 +6184,7 @@
     "name": "Newyorkshark",
     "path": "clnewyorkshark.html",
     "image": "clnewyorkshark.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6233,7 +6233,7 @@
     "name": "Ngon",
     "path": "clngon.html",
     "image": "clngon.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6296,14 +6296,14 @@
     "name": "Noobminer",
     "path": "clnoobminer.html",
     "image": "clnoobminer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Notyourpawn",
     "path": "clnotyourpawn.html",
     "image": "clnotyourpawn.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6317,7 +6317,7 @@
     "name": "Nubbysnumberfactory",
     "path": "clnubbysnumberfactory.html",
     "image": "clnubbysnumberfactory.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6352,21 +6352,21 @@
     "name": "Obeythegame",
     "path": "clobeythegame.html",
     "image": "clobeythegame.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ocarinaoftime",
     "path": "clocarinaoftime.html",
     "image": "clocarinaoftime.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Offlineparadise",
     "path": "clofflineparadise.html",
     "image": "clofflineparadise.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6394,28 +6394,28 @@
     "name": "Onepiecefighting",
     "path": "clonepiecefighting.html",
     "image": "clonepiecefighting.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Onlyup",
     "path": "clonlyup.html",
     "image": "clonlyup.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Operius",
     "path": "cloperius.html",
     "image": "cloperius.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Oppositeday",
     "path": "cloppositeday.html",
     "image": "cloppositeday.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6450,28 +6450,28 @@
     "name": "Osu",
     "path": "closu.html",
     "image": "closu.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ourpleguy",
     "path": "clourpleguy.html",
     "image": "clourpleguy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ovo",
     "path": "clovo.html",
     "image": "clovo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ovo 2",
     "path": "clovo2.html",
     "image": "clovo2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6485,7 +6485,7 @@
     "name": "Ovofixed",
     "path": "clovofixed.html",
     "image": "clovofixed.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6499,49 +6499,49 @@
     "name": "Pacmansuperfast",
     "path": "clpacmansuperfast.html",
     "image": "clpacmansuperfast.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papabakeria",
     "path": "clpapabakeria.html",
     "image": "clpapabakeria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papadonut",
     "path": "clpapadonut.html",
     "image": "clpapadonut.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papalouienighthunt 2",
     "path": "clpapalouienighthunt2.html",
     "image": "clpapalouienighthunt2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papalouiewhenburgersattack",
     "path": "clpapalouiewhenburgersattack.html",
     "image": "clpapalouiewhenburgersattack.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papalouiewhenpizzasattack",
     "path": "clpapalouiewhenpizzasattack.html",
     "image": "clpapalouiewhenpizzasattack.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papalouiewhensundaesattack",
     "path": "clpapalouiewhensundaesattack.html",
     "image": "clpapalouiewhensundaesattack.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6569,77 +6569,77 @@
     "name": "Papasburger Iiiaaaaa",
     "path": "clpapasburgerIIIAAAAA.html",
     "image": "clpapasburgerIIIAAAAA.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papascheeseria",
     "path": "clpapascheeseria.html",
     "image": "clpapascheeseria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papascupcakeria",
     "path": "clpapascupcakeria.html",
     "image": "clpapascupcakeria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papasfreezeria",
     "path": "clpapasfreezeria.html",
     "image": "clpapasfreezeria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papashotdoggeria",
     "path": "clpapashotdoggeria.html",
     "image": "clpapashotdoggeria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papaspancakeria",
     "path": "clpapaspancakeria.html",
     "image": "clpapaspancakeria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papaspastaria",
     "path": "clpapaspastaria.html",
     "image": "clpapaspastaria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papasscooperia",
     "path": "clpapasscooperia.html",
     "image": "clpapasscooperia.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papassushiria",
     "path": "clpapassushiria.html",
     "image": "clpapassushiria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papastacomia",
     "path": "clpapastacomia.html",
     "image": "clpapastacomia.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papaswingeria",
     "path": "clpapaswingeria.html",
     "image": "clpapaswingeria.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6660,28 +6660,28 @@
     "name": "Paperiomania",
     "path": "clpaperiomania.html",
     "image": "clpaperiomania.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papermario",
     "path": "clpapermario.html",
     "image": "clpapermario.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papermariopromode",
     "path": "clpapermariopromode.html",
     "image": "clpapermariopromode.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Papermariottyd",
     "path": "clpapermariottyd.html",
     "image": "clpapermariottyd.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6695,28 +6695,28 @@
     "name": "Parappatherapperalt",
     "path": "clparappatherapperalt.html",
     "image": "clparappatherapperalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Parkingfury",
     "path": "clparkingfury.html",
     "image": "clparkingfury.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Parkingfury 2",
     "path": "clparkingfury2.html",
     "image": "clparkingfury2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Parkingfury 3",
     "path": "clparkingfury3.html",
     "image": "clparkingfury3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6730,14 +6730,14 @@
     "name": "Partnersintime",
     "path": "clpartnersintime.html",
     "image": "clpartnersintime.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Penaltykicks",
     "path": "clpenaltykicks.html",
     "image": "clpenaltykicks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6751,7 +6751,7 @@
     "name": "Penguinpass",
     "path": "clpenguinpass.html",
     "image": "clpenguinpass.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6765,14 +6765,14 @@
     "name": "Pepsimanalt",
     "path": "clpepsimanalt.html",
     "image": "clpepsimanalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Perfectdark",
     "path": "clperfectdark.html",
     "image": "clperfectdark.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6800,14 +6800,14 @@
     "name": "Persona 2 Alt",
     "path": "clpersona2alt.html",
     "image": "clpersona2alt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Personaalt",
     "path": "clpersonaalt.html",
     "image": "clpersonaalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6828,7 +6828,7 @@
     "name": "Pheonixrightaceattorny",
     "path": "clpheonixrightaceattorny.html",
     "image": "clpheonixrightaceattorny.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6842,14 +6842,14 @@
     "name": "Pibbyapocalypse",
     "path": "clpibbyapocalypse.html",
     "image": "clpibbyapocalypse.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pico 8",
     "path": "clpico8.html",
     "image": "clpico8.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6870,7 +6870,7 @@
     "name": "Picosschool",
     "path": "clpicosschool.html",
     "image": "clpicosschool.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6905,7 +6905,7 @@
     "name": "Pixelbattlegroundsio",
     "path": "clpixelbattlegroundsio.html",
     "image": "clpixelbattlegroundsio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6926,7 +6926,7 @@
     "name": "Pixelshooter",
     "path": "clpixelshooter.html",
     "image": "clpixelshooter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -6947,35 +6947,35 @@
     "name": "Pizzapapa",
     "path": "clpizzapapa.html",
     "image": "clpizzapapa.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pizzatower",
     "path": "clpizzatower.html",
     "image": "clpizzatower.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Plantsvszombies",
     "path": "clplantsvszombies.html",
     "image": "clplantsvszombies.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Plazmaburst",
     "path": "clplazmaburst.html",
     "image": "clplazmaburst.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Plinko",
     "path": "clplinko.html",
     "image": "clplinko.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7010,21 +7010,21 @@
     "name": "Pokeblack 2 Alt",
     "path": "clpokeblack2alt.html",
     "image": "clpokeblack2alt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pokeblackalt",
     "path": "clpokeblackalt.html",
     "image": "clpokeblackalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pokeblazeblack 2 Redux",
     "path": "clpokeblazeblack2redux.html",
     "image": "clpokeblazeblack2redux.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7052,7 +7052,7 @@
     "name": "Pokediamond",
     "path": "clpokediamond.html",
     "image": "clpokediamond.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7136,7 +7136,7 @@
     "name": "Pokeheartgold",
     "path": "clpokeheartgold.html",
     "image": "clpokeheartgold.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7192,7 +7192,7 @@
     "name": "Pokemonemeraldcrest",
     "path": "clpokemonemeraldcrest.html",
     "image": "clpokemonemeraldcrest.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7339,7 +7339,7 @@
     "name": "Pokemonstadium",
     "path": "clpokemonstadium.html",
     "image": "clpokemonstadium.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7367,7 +7367,7 @@
     "name": "Pokemysteryexplorersofsky",
     "path": "clpokemysteryexplorersofsky.html",
     "image": "clpokemysteryexplorersofsky.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7381,7 +7381,7 @@
     "name": "Pokepearl",
     "path": "clpokepearl.html",
     "image": "clpokepearl.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7402,14 +7402,14 @@
     "name": "Pokeplatinum",
     "path": "clpokeplatinum.html",
     "image": "clpokeplatinum.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pokeplatinumrandomized",
     "path": "clpokeplatinumrandomized.html",
     "image": "clpokeplatinumrandomized.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7472,14 +7472,14 @@
     "name": "Pokescorchedsilver",
     "path": "clpokescorchedsilver.html",
     "image": "clpokescorchedsilver.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pokesoulsilver",
     "path": "clpokesoulsilver.html",
     "image": "clpokesoulsilver.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7521,21 +7521,21 @@
     "name": "Pokevoltwhite 2 Redux",
     "path": "clpokevoltwhite2redux.html",
     "image": "clpokevoltwhite2redux.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pokevoyager",
     "path": "clpokevoyager.html",
     "image": "clpokevoyager.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Pokewhite",
     "path": "clpokewhite.html",
     "image": "clpokewhite.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7549,7 +7549,7 @@
     "name": "Pokewhite 2 Alt",
     "path": "clpokewhite2alt.html",
     "image": "clpokewhite2alt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7560,9 +7560,9 @@
     "popularity": 0
   },
   {
-    "name": "Pok\u00e9monstunningsteel",
-    "path": "clPok\u00e9monstunningsteel.html",
-    "image": "clPok\u00e9monstunningsteel.png",
+    "name": "Pokémonstunningsteel",
+    "path": "clPokémonstunningsteel.html",
+    "image": "clPokémonstunningsteel.png",
     "tier": "not_checked",
     "popularity": 0
   },
@@ -7584,7 +7584,7 @@
     "name": "Poorbunny",
     "path": "clpoorbunny.html",
     "image": "clpoorbunny.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7605,7 +7605,7 @@
     "name": "Portalflash",
     "path": "clportalflash.html",
     "image": "clportalflash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7626,7 +7626,7 @@
     "name": "Pou",
     "path": "clpou.html",
     "image": "clpou.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7647,21 +7647,21 @@
     "name": "Precivilationbronzeage",
     "path": "clprecivilationbronzeage.html",
     "image": "clprecivilationbronzeage.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Prehistoricshark",
     "path": "clprehistoricshark.html",
     "image": "clprehistoricshark.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Primary",
     "path": "clprimary.html",
     "image": "clprimary.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7696,7 +7696,7 @@
     "name": "Pushyourluck",
     "path": "clpushyourluck.html",
     "image": "clpushyourluck.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7710,7 +7710,7 @@
     "name": "Pvz",
     "path": "clpvz.html",
     "image": "clpvz.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7745,14 +7745,14 @@
     "name": "Qwop",
     "path": "clqwop.html",
     "image": "clqwop.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Racemaster 3 D",
     "path": "clracemaster3d.html",
     "image": "clracemaster3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7766,7 +7766,7 @@
     "name": "Radicalred",
     "path": "clradicalred.html",
     "image": "clradicalred.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7780,49 +7780,49 @@
     "name": "Raftwars",
     "path": "clraftwars.html",
     "image": "clraftwars.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Raftwars 2",
     "path": "clraftwars2.html",
     "image": "clraftwars2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ragdoll Io",
     "path": "clragdoll-io.html",
     "image": "clragdoll-io.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ragdollarchers",
     "path": "clragdollarchers.html",
     "image": "clragdollarchers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ragdollhit",
     "path": "clragdollhit.html",
     "image": "clragdollhit.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ragdollrunners",
     "path": "clragdollrunners.html",
     "image": "clragdollrunners.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ragdollsoccer",
     "path": "clragdollsoccer.html",
     "image": "clragdollsoccer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7836,7 +7836,7 @@
     "name": "Rainbowsixalt",
     "path": "clrainbowsixalt.html",
     "image": "clrainbowsixalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7850,14 +7850,14 @@
     "name": "Raze",
     "path": "clraze.html",
     "image": "clraze.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Reachthecore",
     "path": "clreachthecore.html",
     "image": "clreachthecore.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7871,56 +7871,56 @@
     "name": "Recoil",
     "path": "clrecoil.html",
     "image": "clrecoil.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Redball",
     "path": "clredball.html",
     "image": "clredball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Redball 2",
     "path": "clredball2.html",
     "image": "clredball2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Redball 3",
     "path": "clredball3.html",
     "image": "clredball3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Redball 4",
     "path": "clredball4.html",
     "image": "clredball4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Redball 4 Vol 2",
     "path": "clredball4vol2.html",
     "image": "clredball4vol2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Redball 4 Vol 3",
     "path": "clredball4vol3.html",
     "image": "clredball4vol3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Redtierunner",
     "path": "clredtierunner.html",
     "image": "clredtierunner.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7941,35 +7941,35 @@
     "name": "Reignofcentipede",
     "path": "clreignofcentipede.html",
     "image": "clreignofcentipede.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Renegades",
     "path": "clrenegades.html",
     "image": "clrenegades.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Residentevil 2",
     "path": "clresidentevil2.html",
     "image": "clresidentevil2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Resizer",
     "path": "clresizer.html",
     "image": "clresizer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Resortempire",
     "path": "clresortempire.html",
     "image": "clresortempire.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -7990,7 +7990,7 @@
     "name": "Retrohighway",
     "path": "clretrohighway.html",
     "image": "clretrohighway.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8004,21 +8004,21 @@
     "name": "Returnman",
     "path": "clreturnman.html",
     "image": "clreturnman.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Returnman 2",
     "path": "clreturnman2.html",
     "image": "clreturnman2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Returntoriddleschool",
     "path": "clreturntoriddleschool.html",
     "image": "clreturntoriddleschool.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8039,56 +8039,56 @@
     "name": "Rhythymymheaven",
     "path": "clrhythymymheaven.html",
     "image": "clrhythymymheaven.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Riddleschool",
     "path": "clriddleschool.html",
     "image": "clriddleschool.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Riddleschool 2",
     "path": "clriddleschool2.html",
     "image": "clriddleschool2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Riddleschool 3",
     "path": "clriddleschool3.html",
     "image": "clriddleschool3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Riddleschool 445544444$$444$444",
     "path": "clriddleschool445544444$$444$444.html",
     "image": "clriddleschool445544444$$444$444.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Riddletransfer",
     "path": "clriddletransfer.html",
     "image": "clriddletransfer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Riddletransfer 2",
     "path": "clriddletransfer2.html",
     "image": "clriddletransfer2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ridgeracer",
     "path": "clridgeracer.html",
     "image": "clridgeracer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8102,14 +8102,14 @@
     "name": "Roadoffury",
     "path": "clroadoffury.html",
     "image": "clroadoffury.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Roadofthedead",
     "path": "clroadofthedead.html",
     "image": "clroadofthedead.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8123,21 +8123,21 @@
     "name": "Rocketleague",
     "path": "clrocketleague.html",
     "image": "clrocketleague.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Rocketpult",
     "path": "clrocketpult.html",
     "image": "clrocketpult.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Rocketsoccerderby",
     "path": "clrocketsoccerderby.html",
     "image": "clrocketsoccerderby.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8151,21 +8151,21 @@
     "name": "Roguesoul",
     "path": "clroguesoul.html",
     "image": "clroguesoul.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Roguesoul 2",
     "path": "clroguesoul2.html",
     "image": "clroguesoul2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Rollerballer",
     "path": "clrollerballer.html",
     "image": "clrollerballer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8186,63 +8186,63 @@
     "name": "Rolypolymonster",
     "path": "clrolypolymonster.html",
     "image": "clrolypolymonster.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Rooftopsnipers",
     "path": "clrooftopsnipers.html",
     "image": "clrooftopsnipers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Rooftopsnipers 2",
     "path": "clrooftopsnipers2.html",
     "image": "clrooftopsnipers2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Roomclicker",
     "path": "clroomclicker.html",
     "image": "clroomclicker.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Rotate",
     "path": "clrotate.html",
     "image": "clrotate.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Rouletteknight",
     "path": "clrouletteknight.html",
     "image": "clrouletteknight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ruffle",
     "path": "clruffle.html",
     "image": "clruffle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Run 2",
     "path": "clrun-2.html",
     "image": "clrun-2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Run",
     "path": "clrun.html",
     "image": "clrun.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8256,7 +8256,7 @@
     "name": "Russiancardriver",
     "path": "clrussiancardriver.html",
     "image": "clrussiancardriver.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8270,42 +8270,42 @@
     "name": "Sandboxels",
     "path": "clsandboxels.html",
     "image": "clsandboxels.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sandsofthecoliseum",
     "path": "clsandsofthecoliseum.html",
     "image": "clsandsofthecoliseum.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sandtris",
     "path": "clsandtris.html",
     "image": "clsandtris.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Santarun",
     "path": "clsantarun.html",
     "image": "clsantarun.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Scarymazegame",
     "path": "clscarymazegame.html",
     "image": "clscarymazegame.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Scrapmetal 3",
     "path": "clscrapmetal3.html",
     "image": "clscrapmetal3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8319,7 +8319,7 @@
     "name": "Scubabear",
     "path": "clscubabear.html",
     "image": "clscubabear.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8340,77 +8340,77 @@
     "name": "Serenitrove",
     "path": "clserenitrove.html",
     "image": "clserenitrove.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sfk",
     "path": "clsfk.html",
     "image": "clsfk.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sfk 2",
     "path": "clsfk2.html",
     "image": "clsfk2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sfklaststand",
     "path": "clsfklaststand.html",
     "image": "clsfklaststand.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sfkleague",
     "path": "clsfkleague.html",
     "image": "clsfkleague.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Shaggy",
     "path": "clshaggy.html",
     "image": "clshaggy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Shc 1",
     "path": "clshc1.html",
     "image": "clshc1.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Shc 2",
     "path": "clshc2.html",
     "image": "clshc2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Shc 3",
     "path": "clshc3.html",
     "image": "clshc3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Shinmegamitenseidevilsurvivor",
     "path": "clshinmegamitenseidevilsurvivor.html",
     "image": "clshinmegamitenseidevilsurvivor.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Shortlife",
     "path": "clshortlife.html",
     "image": "clshortlife.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8424,7 +8424,7 @@
     "name": "Shwultimatem",
     "path": "clshwultimatem.html",
     "image": "clshwultimatem.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8445,14 +8445,14 @@
     "name": "Silenthillalt",
     "path": "clsilenthillalt.html",
     "image": "clsilenthillalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Silk",
     "path": "clsilk.html",
     "image": "clsilk.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8466,7 +8466,7 @@
     "name": "Singlefile",
     "path": "clSINGLEFILE.html",
     "image": "clSINGLEFILE.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8480,14 +8480,14 @@
     "name": "Skateit",
     "path": "clskateit.html",
     "image": "clskateit.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Skibididibidygyattohiorizzingallovertheplacestillwatermangotheoryfemboydrool",
     "path": "clskibididibidygyattohiorizzingallovertheplacestillwatermangotheoryfemboydrool.html",
     "image": "clskibididibidygyattohiorizzingallovertheplacestillwatermangotheoryfemboydrool.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8508,21 +8508,21 @@
     "name": "Sliceitall",
     "path": "clsliceitall.html",
     "image": "clsliceitall.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Slideinthewoods",
     "path": "clslideinthewoods.html",
     "image": "clslideinthewoods.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Slimelabratory",
     "path": "clslimelabratory.html",
     "image": "clslimelabratory.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8536,7 +8536,7 @@
     "name": "Slitherio",
     "path": "clslitherio.html",
     "image": "clslitherio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8571,14 +8571,14 @@
     "name": "Slotornot",
     "path": "clslotornot.html",
     "image": "clslotornot.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Slowroads",
     "path": "clslowroads.html",
     "image": "clslowroads.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8599,7 +8599,7 @@
     "name": "Smashkarts",
     "path": "clsmashkarts.html",
     "image": "clsmashkarts.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8613,35 +8613,35 @@
     "name": "Smashremix",
     "path": "clsmashremix.html",
     "image": "clsmashremix.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Smbcrossover",
     "path": "clsmbcrossover.html",
     "image": "clsmbcrossover.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Smbgameover",
     "path": "clsmbgameover.html",
     "image": "clsmbgameover.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Snailbob",
     "path": "clsnailbob.html",
     "image": "clsnailbob.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Snakeis",
     "path": "clsnakeis.html",
     "image": "clsnakeis.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8669,7 +8669,7 @@
     "name": "Snowballio",
     "path": "clsnowballio.html",
     "image": "clsnowballio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8683,14 +8683,14 @@
     "name": "Snowrideee",
     "path": "clsnowrideee.html",
     "image": "clsnowrideee.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Snowrider",
     "path": "clsnowrider.html",
     "image": "clsnowrider.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8704,21 +8704,21 @@
     "name": "Snowriderrrr",
     "path": "clsnowriderrrr.html",
     "image": "clsnowriderrrr.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Snowroad",
     "path": "clsnowroad.html",
     "image": "clsnowroad.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Soccerbros",
     "path": "clsoccerbros.html",
     "image": "clsoccerbros.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8732,7 +8732,7 @@
     "name": "Soccerrandomgood",
     "path": "clsoccerrandomgood.html",
     "image": "clsoccerrandomgood.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8746,14 +8746,14 @@
     "name": "Solarsmash",
     "path": "clsolarsmash.html",
     "image": "clsolarsmash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Solitaire",
     "path": "clsolitaire.html",
     "image": "clsolitaire.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8858,7 +8858,7 @@
     "name": "Sonicclassiccollection",
     "path": "clsonicclassiccollection.html",
     "image": "clsonicclassiccollection.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8872,7 +8872,7 @@
     "name": "Soniccolors",
     "path": "clsoniccolors.html",
     "image": "clsoniccolors.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8886,7 +8886,7 @@
     "name": "Soniceexeog",
     "path": "clsoniceexeog.html",
     "image": "clsoniceexeog.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8928,28 +8928,28 @@
     "name": "Sonicralt",
     "path": "clsonicralt.html",
     "image": "clsonicralt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sonicrevert",
     "path": "clsonicrevert.html",
     "image": "clsonicrevert.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sonicrush",
     "path": "clsonicrush.html",
     "image": "clsonicrush.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sonicrushadventure",
     "path": "clsonicrushadventure.html",
     "image": "clsonicrushadventure.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -8984,21 +8984,21 @@
     "name": "Souljumper",
     "path": "clsouljumper.html",
     "image": "clsouljumper.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Spacebarclicker",
     "path": "clspacebarclicker.html",
     "image": "clspacebarclicker.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Spacecompany",
     "path": "clspacecompany.html",
     "image": "clspacecompany.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9012,42 +9012,42 @@
     "name": "Spaceiskey",
     "path": "clspaceiskey.html",
     "image": "clspaceiskey.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Spaceiskey 2",
     "path": "clspaceiskey2.html",
     "image": "clspaceiskey2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Spaceiskeyxmas",
     "path": "clspaceiskeyxmas.html",
     "image": "clspaceiskeyxmas.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Spacewarsbattleground",
     "path": "clspacewarsbattleground.html",
     "image": "clspacewarsbattleground.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Spacewaves",
     "path": "clspacewaves.html",
     "image": "clspacewaves.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Speedperclick",
     "path": "clspeedperclick.html",
     "image": "clspeedperclick.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9089,21 +9089,21 @@
     "name": "Stackballio",
     "path": "clstackballio.html",
     "image": "clstackballio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stacktris",
     "path": "clstacktris.html",
     "image": "clstacktris.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stackydash",
     "path": "clstackydash.html",
     "image": "clstackydash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9131,42 +9131,42 @@
     "name": "Stateio",
     "path": "clstateio.html",
     "image": "clstateio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Station 141",
     "path": "clstation141.html",
     "image": "clstation141.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stationmeltdown",
     "path": "clstationmeltdown.html",
     "image": "clstationmeltdown.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stealbrainrotonline",
     "path": "clstealbrainrotonline.html",
     "image": "clstealbrainrotonline.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stealthassassin",
     "path": "clstealthassassin.html",
     "image": "clstealthassassin.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stealthmaster",
     "path": "clstealthmaster.html",
     "image": "clstealthmaster.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9180,21 +9180,21 @@
     "name": "Stickarchersbattle",
     "path": "clstickarchersbattle.html",
     "image": "clstickarchersbattle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stickfighter",
     "path": "clstickfighter.html",
     "image": "clstickfighter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stickmanandguns",
     "path": "clstickmanandguns.html",
     "image": "clstickmanandguns.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9229,7 +9229,7 @@
     "name": "Stickman Kingdomclash",
     "path": "clStickmanKingdomclash.html",
     "image": "clStickmanKingdomclash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9243,21 +9243,21 @@
     "name": "Stickmanstealingdiamond",
     "path": "clstickmanstealingdiamond.html",
     "image": "clstickmanstealingdiamond.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stickmerge",
     "path": "clstickmerge.html",
     "image": "clstickmerge.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stickminairship",
     "path": "clstickminairship.html",
     "image": "clstickminairship.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9271,56 +9271,56 @@
     "name": "Stickminescapingprison",
     "path": "clstickminescapingprison.html",
     "image": "clstickminescapingprison.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stickminfleecomplex",
     "path": "clstickminfleecomplex.html",
     "image": "clstickminfleecomplex.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stickrpgcomplete",
     "path": "clstickrpgcomplete.html",
     "image": "clstickrpgcomplete.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stickwar",
     "path": "clstickwar.html",
     "image": "clstickwar.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stormthehouse",
     "path": "clstormthehouse.html",
     "image": "clstormthehouse.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stormthehouse 3",
     "path": "clstormthehouse3.html",
     "image": "clstormthehouse3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Strangejournet",
     "path": "clstrangejournet.html",
     "image": "clstrangejournet.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Streangeropepolice",
     "path": "clstreangeropepolice.html",
     "image": "clstreangeropepolice.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9376,14 +9376,14 @@
     "name": "Strikeforceheroes",
     "path": "clstrikeforceheroes.html",
     "image": "clstrikeforceheroes.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Strikeforceheroes 2",
     "path": "clstrikeforceheroes2.html",
     "image": "clstrikeforceheroes2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9397,77 +9397,77 @@
     "name": "Strikerdummies",
     "path": "clstrikerdummies.html",
     "image": "clstrikerdummies.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Stylesavvy",
     "path": "clstylesavvy.html",
     "image": "clstylesavvy.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersbarcelona",
     "path": "clsubwaysurfersbarcelona.html",
     "image": "clsubwaysurfersbarcelona.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersbeijing",
     "path": "clsubwaysurfersbeijing.html",
     "image": "clsubwaysurfersbeijing.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersberlin",
     "path": "clsubwaysurfersberlin.html",
     "image": "clsubwaysurfersberlin.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersbuenosaires",
     "path": "clsubwaysurfersbuenosaires.html",
     "image": "clsubwaysurfersbuenosaires.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfershavana",
     "path": "clsubwaysurfershavana.html",
     "image": "clsubwaysurfershavana.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfershouston",
     "path": "clsubwaysurfershouston.html",
     "image": "clsubwaysurfershouston.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersiceland",
     "path": "clsubwaysurfersiceland.html",
     "image": "clsubwaysurfersiceland.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurferslondon",
     "path": "clsubwaysurferslondon.html",
     "image": "clsubwaysurferslondon.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersmexico",
     "path": "clsubwaysurfersmexico.html",
     "image": "clsubwaysurfersmexico.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9481,21 +9481,21 @@
     "name": "Subwaysurfersmonaco",
     "path": "clsubwaysurfersmonaco.html",
     "image": "clsubwaysurfersmonaco.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersneworeleans",
     "path": "clsubwaysurfersneworeleans.html",
     "image": "clsubwaysurfersneworeleans.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurfersneworleans",
     "path": "clsubwaysurfersneworleans.html",
     "image": "clsubwaysurfersneworleans.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9509,14 +9509,14 @@
     "name": "Subwaysurferssanfrancisco(1)",
     "path": "clsubwaysurferssanfrancisco(1).html",
     "image": "clsubwaysurferssanfrancisco(1).png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Subwaysurferssanfrancisco",
     "path": "clsubwaysurferssanfrancisco.html",
     "image": "clsubwaysurferssanfrancisco.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9544,14 +9544,14 @@
     "name": "Sugarsugar",
     "path": "clsugarsugar.html",
     "image": "clsugarsugar.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Suika",
     "path": "clsuika.html",
     "image": "clsuika.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9572,7 +9572,7 @@
     "name": "Supercarrush",
     "path": "clsupercarrush.html",
     "image": "clsupercarrush.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9586,14 +9586,14 @@
     "name": "Superchibiknight",
     "path": "clsuperchibiknight.html",
     "image": "clsuperchibiknight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Supercold",
     "path": "clsupercold.html",
     "image": "clsupercold.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9614,7 +9614,7 @@
     "name": "Superfighters",
     "path": "clsuperfighters.html",
     "image": "clsuperfighters.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9628,14 +9628,14 @@
     "name": "Superhotlinemiami",
     "path": "clsuperhotlinemiami.html",
     "image": "clsuperhotlinemiami.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Superhouseofdeadninjas",
     "path": "clsuperhouseofdeadninjas.html",
     "image": "clsuperhouseofdeadninjas.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9656,7 +9656,7 @@
     "name": "Supermario 63",
     "path": "clsupermario63.html",
     "image": "clsupermario63.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9684,7 +9684,7 @@
     "name": "Supermariobros",
     "path": "clsupermariobros.html",
     "image": "clsupermariobros.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9789,7 +9789,7 @@
     "name": "Superoliverworld",
     "path": "clsuperoliverworld.html",
     "image": "clsuperoliverworld.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9810,7 +9810,7 @@
     "name": "Superpuzzlefighter 2 Turboalt",
     "path": "clsuperpuzzlefighter2turboalt.html",
     "image": "clsuperpuzzlefighter2turboalt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9831,42 +9831,42 @@
     "name": "Supersmashflash",
     "path": "clsupersmashflash.html",
     "image": "clsupersmashflash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Supersmashflash 2",
     "path": "clsupersmashflash2.html",
     "image": "clsupersmashflash2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Supersmashflash 2 Butdifversion",
     "path": "clsupersmashflash2butdifversion.html",
     "image": "clsupersmashflash2butdifversion.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Supitdept",
     "path": "clsupitdept.html",
     "image": "clsupitdept.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Supremeduelist",
     "path": "clsupremeduelist.html",
     "image": "clsupremeduelist.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Survevio",
     "path": "clsurvevio.html",
     "image": "clsurvevio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9880,14 +9880,14 @@
     "name": "Sushicat",
     "path": "clsushicat.html",
     "image": "clsushicat.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sushicat 2",
     "path": "clsushicat2.html",
     "image": "clsushicat2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9908,21 +9908,21 @@
     "name": "Switchblade",
     "path": "clswitchblade.html",
     "image": "clswitchblade.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Swordandshieldultimateplus",
     "path": "clswordandshieldultimateplus.html",
     "image": "clswordandshieldultimateplus.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Swordfight",
     "path": "clswordfight.html",
     "image": "clswordfight.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9936,49 +9936,49 @@
     "name": "Swordsandsandals",
     "path": "clswordsandsandals.html",
     "image": "clswordsandsandals.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Swordsandsandals 2",
     "path": "clswordsandsandals2.html",
     "image": "clswordsandsandals2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Swordsandsouls",
     "path": "clswordsandsouls.html",
     "image": "clswordsandsouls.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Sydneyshark",
     "path": "clsydneyshark.html",
     "image": "clsydneyshark.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tabletanks",
     "path": "cltabletanks.html",
     "image": "cltabletanks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tabletennisworldtour",
     "path": "cltabletennisworldtour.html",
     "image": "cltabletennisworldtour.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tag",
     "path": "cltag-.html",
     "image": "cltag-.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -9992,21 +9992,21 @@
     "name": "Taikono Tatsujin",
     "path": "clTaikonoTatsujin.html",
     "image": "clTaikonoTatsujin.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Takeover",
     "path": "cltakeover.html",
     "image": "cltakeover.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tallmanrun",
     "path": "cltallmanrun.html",
     "image": "cltallmanrun.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10020,21 +10020,21 @@
     "name": "Tankpixel",
     "path": "cltankpixel.html",
     "image": "cltankpixel.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tanukisunset",
     "path": "cltanukisunset.html",
     "image": "cltanukisunset.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tanukisunsetuhhhhhhhh",
     "path": "cltanukisunsetuhhhhhhhh.html",
     "image": "cltanukisunsetuhhhhhhhh.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10090,14 +10090,14 @@
     "name": "Templeofboom",
     "path": "cltempleofboom.html",
     "image": "cltempleofboom.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Templerun 2",
     "path": "cltemplerun2.html",
     "image": "cltemplerun2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10111,14 +10111,14 @@
     "name": "Territorialio",
     "path": "clterritorialio.html",
     "image": "clterritorialio.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Territorywar",
     "path": "clterritorywar.html",
     "image": "clterritorywar.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10146,56 +10146,56 @@
     "name": "Thanksforremindingmeihadtofixthis",
     "path": "clthanksforremindingmeihadtofixthis.html",
     "image": "clthanksforremindingmeihadtofixthis.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Theclassroom",
     "path": "cltheclassroom.html",
     "image": "cltheclassroom.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Theclassroom 2",
     "path": "cltheclassroom2.html",
     "image": "cltheclassroom2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Theclassroom 3",
     "path": "cltheclassroom3.html",
     "image": "cltheclassroom3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Thedeadseat",
     "path": "clthedeadseat.html",
     "image": "clthedeadseat.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Thedeepestsleep",
     "path": "clthedeepestsleep.html",
     "image": "clthedeepestsleep.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Theenchantedcave 2",
     "path": "cltheenchantedcave2.html",
     "image": "cltheenchantedcave2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Theimpossiblegame",
     "path": "cltheimpossiblegame.html",
     "image": "cltheimpossiblegame.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10216,14 +10216,14 @@
     "name": "Thelaststandunioncity",
     "path": "clthelaststandunioncity.html",
     "image": "clthelaststandunioncity.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Themaninthewindow",
     "path": "clthemaninthewindow.html",
     "image": "clthemaninthewindow.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10244,7 +10244,7 @@
     "name": "Thereisnofile",
     "path": "clthereisnofile.html",
     "image": "clthereisnofile.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10258,21 +10258,21 @@
     "name": "Thisistheonlylevel 2",
     "path": "clthisistheonlylevel2.html",
     "image": "clthisistheonlylevel2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Thisistheonlyleveltoo",
     "path": "clthisistheonlyleveltoo.html",
     "image": "clthisistheonlyleveltoo.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Threegoblets",
     "path": "clthreegoblets.html",
     "image": "clthreegoblets.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10293,28 +10293,28 @@
     "name": "Timeshooter 2",
     "path": "cltimeshooter2.html",
     "image": "cltimeshooter2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Timeshooter 3",
     "path": "cltimeshooter3.html",
     "image": "cltimeshooter3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Timewarriors",
     "path": "cltimewarriors.html",
     "image": "cltimewarriors.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tinyfishing",
     "path": "cltinyfishing.html",
     "image": "cltinyfishing.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10335,21 +10335,21 @@
     "name": "Toasterball",
     "path": "cltoasterball.html",
     "image": "cltoasterball.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tombofthemass",
     "path": "cltombofthemass.html",
     "image": "cltombofthemass.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tommorowandyesterday",
     "path": "cltommorowandyesterday.html",
     "image": "cltommorowandyesterday.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10391,14 +10391,14 @@
     "name": "Topspeedracing 3 D",
     "path": "cltopspeedracing3d.html",
     "image": "cltopspeedracing3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tosstheturtle",
     "path": "cltosstheturtle.html",
     "image": "cltosstheturtle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10412,14 +10412,14 @@
     "name": "Towerblocks",
     "path": "cltowerblocks.html",
     "image": "cltowerblocks.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Towercrash 3 D",
     "path": "cltowercrash3d.html",
     "image": "cltowercrash3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10440,14 +10440,14 @@
     "name": "Trafficjam 3 D",
     "path": "cltrafficjam3d.html",
     "image": "cltrafficjam3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trapthecat",
     "path": "cltrapthecat.html",
     "image": "cltrapthecat.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10475,112 +10475,112 @@
     "name": "Triviacrack",
     "path": "cltriviacrack.html",
     "image": "cltriviacrack.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 1",
     "path": "cltrollfacequest1.html",
     "image": "cltrollfacequest1.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 10",
     "path": "cltrollfacequest10.html",
     "image": "cltrollfacequest10.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 11",
     "path": "cltrollfacequest11.html",
     "image": "cltrollfacequest11.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 12",
     "path": "cltrollfacequest12.html",
     "image": "cltrollfacequest12.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 13",
     "path": "cltrollfacequest13.html",
     "image": "cltrollfacequest13.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 2",
     "path": "cltrollfacequest2.html",
     "image": "cltrollfacequest2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 3",
     "path": "cltrollfacequest3.html",
     "image": "cltrollfacequest3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 4",
     "path": "cltrollfacequest4.html",
     "image": "cltrollfacequest4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 5",
     "path": "cltrollfacequest5.html",
     "image": "cltrollfacequest5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 6",
     "path": "cltrollfacequest6.html",
     "image": "cltrollfacequest6.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 7",
     "path": "cltrollfacequest7.html",
     "image": "cltrollfacequest7.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 8",
     "path": "cltrollfacequest8.html",
     "image": "cltrollfacequest8.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trollfacequest 9",
     "path": "cltrollfacequest9.html",
     "image": "cltrollfacequest9.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Trucksim",
     "path": "cltrucksim.html",
     "image": "cltrucksim.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Tubejumpers",
     "path": "cltubejumpers.html",
     "image": "cltubejumpers.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10594,35 +10594,35 @@
     "name": "Tunnelrushbetter",
     "path": "cltunnelrushbetter.html",
     "image": "cltunnelrushbetter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Turbostars",
     "path": "clturbostars.html",
     "image": "clturbostars.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Twistedmetal",
     "path": "cltwistedmetal.html",
     "image": "cltwistedmetal.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Twistedmetal 2",
     "path": "cltwistedmetal2.html",
     "image": "cltwistedmetal2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Twoball 3 D",
     "path": "cltwoball3d.html",
     "image": "cltwoball3d.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10650,14 +10650,14 @@
     "name": "Ultimateassassian 2",
     "path": "clultimateassassian2.html",
     "image": "clultimateassassian2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Ultimateassassian 3",
     "path": "clultimateassassian3.html",
     "image": "clultimateassassian3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10671,7 +10671,7 @@
     "name": "Ultimatemortalkombat",
     "path": "clultimatemortalkombat.html",
     "image": "clultimatemortalkombat.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10685,7 +10685,7 @@
     "name": "Ultrakill",
     "path": "clultrakill.html",
     "image": "clultrakill.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10699,7 +10699,7 @@
     "name": "Underneath",
     "path": "clunderneath.html",
     "image": "clunderneath.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10741,28 +10741,28 @@
     "name": "Unicyclehero",
     "path": "clunicyclehero.html",
     "image": "clunicyclehero.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Uno",
     "path": "cluno.html",
     "image": "cluno.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Upgradecomplete",
     "path": "clupgradecomplete.html",
     "image": "clupgradecomplete.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Upgradecomplete 2",
     "path": "clupgradecomplete2.html",
     "image": "clupgradecomplete2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10776,28 +10776,28 @@
     "name": "Vex",
     "path": "clvex.html",
     "image": "clvex.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vex 2",
     "path": "clvex2.html",
     "image": "clvex2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vex 3",
     "path": "clvex3.html",
     "image": "clvex3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vex 3 Xmas",
     "path": "clvex3xmas.html",
     "image": "clvex3xmas.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10818,42 +10818,42 @@
     "name": "Vex 6",
     "path": "clvex6.html",
     "image": "clvex6.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vex 7",
     "path": "clvex7.html",
     "image": "clvex7.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vex 8",
     "path": "clvex8.html",
     "image": "clvex8.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vexchallenges",
     "path": "clvexchallenges.html",
     "image": "clvexchallenges.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vexx 3 M",
     "path": "clvexx3m.html",
     "image": "clvexx3m.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Vexx 3 M 2",
     "path": "clvexx3m2.html",
     "image": "clvexx3m2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10867,7 +10867,7 @@
     "name": "Volleyrandom",
     "path": "clvolleyrandom.html",
     "image": "clvolleyrandom.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10881,7 +10881,7 @@
     "name": "Warfare 1944",
     "path": "clwarfare1944.html",
     "image": "clwarfare1944.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10923,7 +10923,7 @@
     "name": "Wavedash",
     "path": "clwavedash.html",
     "image": "clwavedash.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10937,7 +10937,7 @@
     "name": "Waverun",
     "path": "clwaverun.html",
     "image": "clwaverun.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10951,21 +10951,21 @@
     "name": "Whackthetheif",
     "path": "clwhackthetheif.html",
     "image": "clwhackthetheif.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Whackyourboss",
     "path": "clwhackyourboss.html",
     "image": "clwhackyourboss.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Whackyourcomputer",
     "path": "clwhackyourcomputer.html",
     "image": "clwhackyourcomputer.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -10979,63 +10979,63 @@
     "name": "Wheely",
     "path": "clwheely.html",
     "image": "clwheely.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wheely 2",
     "path": "clwheely2.html",
     "image": "clwheely2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wheely 3",
     "path": "clwheely3.html",
     "image": "clwheely3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wheely 4",
     "path": "clwheely4.html",
     "image": "clwheely4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wheely 5",
     "path": "clwheely5.html",
     "image": "clwheely5.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wheely 6",
     "path": "clwheely6.html",
     "image": "clwheely6.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wheely 7",
     "path": "clwheely7.html",
     "image": "clwheely7.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wheely 8",
     "path": "clwheely8.html",
     "image": "clwheely8.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Windowsdoors",
     "path": "clwindowsdoors.html",
     "image": "clwindowsdoors.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11056,7 +11056,7 @@
     "name": "Wipeout 2097 Alt",
     "path": "clwipeout2097alt.html",
     "image": "clwipeout2097alt.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11077,14 +11077,14 @@
     "name": "Woodworm",
     "path": "clwoodworm.html",
     "image": "clwoodworm.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wordle",
     "path": "clwordle.html",
     "image": "clwordle.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11098,42 +11098,42 @@
     "name": "Worldshardestgame",
     "path": "clworldshardestgame.html",
     "image": "clworldshardestgame.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Worldshardestgame 2",
     "path": "clworldshardestgame2.html",
     "image": "clworldshardestgame2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Worldshardestgame 3",
     "path": "clworldshardestgame3.html",
     "image": "clworldshardestgame3.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Worldshardestgame 4",
     "path": "clworldshardestgame4.html",
     "image": "clworldshardestgame4.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wrassling",
     "path": "clwrassling.html",
     "image": "clwrassling.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Wrestlebros",
     "path": "clwrestlebros.html",
     "image": "clwrestlebros.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11161,7 +11161,7 @@
     "name": "Yellow",
     "path": "clyellow.html",
     "image": "clyellow.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11175,14 +11175,14 @@
     "name": "Youarelucky",
     "path": "clyouarelucky.html",
     "image": "clyouarelucky.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Youvs 100 Skibidi(1)",
     "path": "clyouvs100skibidi(1).html",
     "image": "clyouvs100skibidi(1).png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11217,28 +11217,28 @@
     "name": "Zenword",
     "path": "clzenword.html",
     "image": "clzenword.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zombieexploder",
     "path": "clzombieexploder.html",
     "image": "clzombieexploder.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zombieroad",
     "path": "clzombieroad.html",
     "image": "clzombieroad.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zombierush",
     "path": "clzombierush.html",
     "image": "clzombierush.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11252,42 +11252,42 @@
     "name": "Zombopaclypse 2",
     "path": "clzombopaclypse2.html",
     "image": "clzombopaclypse2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zombotron",
     "path": "clzombotron.html",
     "image": "clzombotron.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zombotron 2",
     "path": "clzombotron2.html",
     "image": "clzombotron2.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zrist",
     "path": "clzrist.html",
     "image": "clzrist.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zuma",
     "path": "clzuma.html",
     "image": "clzuma.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Zumashooter",
     "path": "clzumashooter.html",
     "image": "clzumashooter.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11301,7 +11301,7 @@
     "name": "Eaglercraft Alpha 1.2.6 Offline",
     "path": "Eaglercraft-Alpha-1.2.6-Offline.html",
     "image": "Eaglercraft-Alpha-1.2.6-Offline.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11315,14 +11315,14 @@
     "name": "Eaglercraft Indev Offline (1)",
     "path": "Eaglercraft-Indev-Offline (1).html",
     "image": "Eaglercraft-Indev-Offline (1).png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
     "name": "Eaglercraft Indev Offline",
     "path": "Eaglercraft-Indev-Offline.html",
     "image": "Eaglercraft-Indev-Offline.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11357,7 +11357,7 @@
     "name": "Minceraft I Not Mine V 6",
     "path": "Minceraft-I-NotMine_V6.html",
     "image": "Minceraft-I-NotMine_V6.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
@@ -11371,7 +11371,7 @@
     "name": "Sandstone",
     "path": "sandstone.html",
     "image": "sandstone.png",
-    "tier": "not_checked",
+    "tier": "playable",
     "popularity": 0
   },
   {
