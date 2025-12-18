@@ -59,7 +59,7 @@
     "name": "2048 Cupcakes",
     "path": "cl2048cupcakes.html",
     "image": "cl2048cupcakes.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -798,10 +798,10 @@
     "popularity": 0
   },
   {
-    "name": "Baseballbros",
+    "name": "Baseball Bros",
     "path": "clbaseballbros.html",
     "image": "clbaseballbros.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -861,10 +861,10 @@
     "popularity": 0
   },
   {
-    "name": "Battlekarts",
+    "name": "Battle Karts",
     "path": "clbattlekarts.html",
     "image": "clbattlekarts.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -1242,21 +1242,21 @@
     "name": "Bobtherobber",
     "path": "clbobtherobber.html",
     "image": "clbobtherobber.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
     "name": "Bobtherobber 2",
     "path": "clbobtherobber2.html",
     "image": "clbobtherobber2.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
     "name": "Bobtherobber 5",
     "path": "clbobtherobber5.html",
     "image": "clbobtherobber5.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -2198,10 +2198,10 @@
     "popularity": 0
   },
   {
-    "name": "Deepestsword",
+    "name": "Deepest Sword",
     "path": "cldeepestsword.html",
     "image": "cldeepestsword.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -2569,10 +2569,10 @@
     "popularity": 0
   },
   {
-    "name": "Drivenwild",
+    "name": "Driven Wild",
     "path": "cldrivenwild.html",
     "image": "cldrivenwild.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -2870,17 +2870,17 @@
     "popularity": 0
   },
   {
-    "name": "Escaperoad 2",
+    "name": "Escape Road 2",
     "path": "clescaperoad-2.html",
     "image": "clescaperoad-2.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
-    "name": "Escaperoad",
+    "name": "Escape Road",
     "path": "clescaperoad.html",
     "image": "clescaperoad.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -3962,10 +3962,10 @@
     "popularity": 0
   },
   {
-    "name": "Golddiggerfrvr",
+    "name": "Gold Digger FRVR",
     "path": "clgolddiggerfrvr.html",
-    "image": "clgolddiggerfrvr.png",
-    "tier": "playable",
+    "image": "golddiggerfrvr.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
@@ -5145,10 +5145,10 @@
     "popularity": 0
   },
   {
-    "name": "Leveldevil",
+    "name": "Level Devil",
     "path": "clleveldevil.html",
-    "image": "clleveldevil.png",
-    "tier": "playable",
+    "image": "leveldevil.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
@@ -5936,10 +5936,10 @@
     "popularity": 0
   },
   {
-    "name": "Monkeymart",
+    "name": "MonkeyMart",
     "path": "clmonkeymart.html",
-    "image": "clmonkeymart.png",
-    "tier": "playable",
+    "image": "monkeymart.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
