@@ -5831,6 +5831,13 @@
     "popularity": 0
   },
   {
+    "name": "Minecraft 1.12.2",
+    "path": "minecraft.html",
+    "image": "minecraft.png",
+    "tier": "verified_plus",
+    "popularity": 0
+  },
+  {
     "name": "Mineshooter",
     "path": "clmineshooter.html",
     "image": "clmineshooter.png",
