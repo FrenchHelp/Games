@@ -2054,7 +2054,7 @@
     "name": "Csgoclicker",
     "path": "clcsgoclicker.html",
     "image": "clcsgoclicker.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -3283,21 +3283,21 @@
     "popularity": 0
   },
   {
-    "name": "Fireboyandwatergirl",
+    "name": "Fire Boy and Water Girl",
     "path": "clfireboyandwatergirl.html",
-    "image": "clfireboyandwatergirl.png",
-    "tier": "playable",
+    "image": "fireboyandwatergirl.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
-    "name": "Fireboyandwatergirl 2",
+    "name": "Fire boy and water girl II",
     "path": "clfireboyandwatergirl2.html",
-    "image": "clfireboyandwatergirl2.png",
-    "tier": "playable",
+    "image": "fireboyandwatergirl2.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
-    "name": "Fireboyandwatergirl 3",
+    "name": "Fire boy and water girl III",
     "path": "clfireboyandwatergirl3.html",
     "image": "clfireboyandwatergirl3.png",
     "tier": "playable",
@@ -3734,7 +3734,7 @@
     "name": "Footballlegends",
     "path": "clfootballlegends.html",
     "image": "clfootballlegends.png",
-    "tier": "playable",
+    "tier": "verified",
     "popularity": 0
   },
   {
@@ -3950,8 +3950,8 @@
   {
     "name": "Gobble",
     "path": "clgobble.html",
-    "image": "clgobble.png",
-    "tier": "playable",
+    "image": "gobble.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
@@ -4522,10 +4522,10 @@
     "popularity": 0
   },
   {
-    "name": "Hoverracerdrive",
+    "name": "Hover Racer Drive",
     "path": "clhoverracerdrive.html",
-    "image": "clhoverracerdrive.png",
-    "tier": "playable",
+    "image": "hoverracerdrive.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
@@ -6013,17 +6013,17 @@
     "popularity": 0
   },
   {
-    "name": "Motox 3 M 2",
+    "name": "Moto x3M 2",
     "path": "clmotox3m2.html",
     "image": "clmotox3m2.png",
     "tier": "playable",
     "popularity": 0
   },
   {
-    "name": "Motox 3 M 3",
+    "name": "Moto x3M 3",
     "path": "clmotox3m3.html",
-    "image": "clmotox3m3.png",
-    "tier": "playable",
+    "image": "motox3m3.png",
+    "tier": "verified_plus",
     "popularity": 0
   },
   {
@@ -8718,7 +8718,7 @@
     "name": "Snowroad",
     "path": "clsnowroad.html",
     "image": "clsnowroad.png",
-    "tier": "playable",
+    "tier": "verified"  ,
     "popularity": 0
   },
   {
